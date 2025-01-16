@@ -5,7 +5,7 @@
 - [x] Upgrade to React 19 & other
 - [x] Enable React Compiler
 - [x] Set up TanStack Router
-- [ ] Push to GitHub
+- [x] Push to GitHub
 - [ ] Layout, site styles & design
 - [ ] Webdev page
 - [ ] Buy Domain Name
