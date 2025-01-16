@@ -8,9 +8,7 @@ export const Route = createLazyFileRoute("/gamedev")({
 function RouteGamedev() {
   return (
     <>
-      <Header id="header-gamedev">
-        <h1>GAMEDEV PAGE</h1>
-      </Header>
+      <Header id="header-gamedev" pageTitle="GAME DEVELOPMENT" />
       <main>
         <section>
           <h2>Main Content</h2>

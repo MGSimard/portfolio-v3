@@ -1,0 +1,244 @@
+{
+  "name": "projectsWD",
+  "description": "Web Development Projects by MGSimard",
+  "author": "MGSimard - https://github.com/MGSimard/",
+  "data": {
+    "Professional": {
+      "more": "",
+      "projects": [
+        {
+          "title": "Rogue",
+          "tags": "Wordpress, Divi, Fullstack",
+          "thumbnail": "https://mgsimard.github.io/rss/thumb_rogue.webp",
+          "link": "https://rogue.no/",
+          "githubRepo": ""
+        }
+      ]
+    },
+    "Standalone": {
+      "more": "https://github.com/MGSimard/",
+      "projects": [
+        {
+          "title": "VertexBlog",
+          "tags": "Next.js, TS, Drizzle (PostgreSQL), Lucia, Fullstack",
+          "thumbnail": "https://mgsimard.github.io/rss/vertexblogthumb.webp",
+          "link": "https://vertexblog.vercel.app/",
+          "githubRepo": "https://github.com/MGSimard/vertexblog/"
+        },
+        {
+          "title": "VertexDB",
+          "tags": "Next.js, TS, Drizzle (PostgreSQL), Clerk, Fullstack",
+          "thumbnail": "https://mgsimard.github.io/rss/2077thumb.webp",
+          "link": "https://vertexdb.vercel.app/",
+          "githubRepo": "https://github.com/MGSimard/vertexdb/"
+        },
+        {
+          "title": "WuwaTools",
+          "tags": "React, TypeScript",
+          "thumbnail": "https://mgsimard.github.io/rss/thumb_wuwatools.webp",
+          "link": "https://wuwatools.web.app/",
+          "githubRepo": "https://github.com/MGSimard/WuwaTools/"
+        },
+        {
+          "title": "LoLMH.Next",
+          "tags": "Next.js, TS, React/JS Migration",
+          "thumbnail": "https://mgsimard.github.io/rss/lolmh_thumb.webp",
+          "link": "https://leaguemh-next.vercel.app/",
+          "githubRepo": "https://github.com/MGSimard/leaguemh-next/"
+        },
+        {
+          "title": "Myth War Archive",
+          "tags": "Next.js, TS",
+          "thumbnail": "https://mgsimard.github.io/rss/mwathumb.webp",
+          "link": "https://mwarchive.vercel.app/",
+          "githubRepo": "https://github.com/MGSimard/Myth-War-Archive/"
+        },
+        {
+          "title": "RoK Site Template",
+          "tags": "React, TS",
+          "thumbnail": "https://mgsimard.github.io/rss/kdsthumb.webp",
+          "link": "https://rok-kdsite.web.app/",
+          "githubRepo": "https://github.com/MGSimard/RoK-KDSite-Template/"
+        }
+      ]
+    },
+    "Frontend Mentor": {
+      "more": "https://www.frontendmentor.io/profile/MGSimard/",
+      "projects": [
+        {
+          "title": "Ecommerce Product Page",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/ecommerce-product-page/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/ecommerce-product-page/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Age Calculator App",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/age-calculator-app/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/age-calculator-app/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Newsletter Sign-Up Form",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/newsletter-sign-up-with-success-message/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/newsletter-sign-up-with-success-message/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "FAQ Accordion Card",
+          "tags": "Frontend Mentor, Vanilla, No-JS",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/faq-accordion-card/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/faq-accordion-card/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Interactive Rating Component",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/interactive-rating-component/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/interactive-rating-component/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Interactive Card Details Form",
+          "tags": "Frontend Mentor, Vanilla, imask.js",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/interactive-card-details-form/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/interactive-card-details-form/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Notifications Page",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/notifications-page/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/notifications-page/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Results Summary Component",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/results-summary-component/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/notifications-page/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Profile Card Component",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/profile-card-component/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/profile-card-component/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "News Homepage",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/news-homepage/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/news-homepage/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "NFT Preview Card Component",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/nft-preview-card-component/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/nft-preview-card-component/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Product Preview Card Component",
+          "tags": "Frontend Mentor, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/frontendmentor/product-preview-card-component/thumb.webp",
+          "link": "https://mgsimard.github.io/frontendmentor/product-preview-card-component/index.html",
+          "githubRepo": ""
+        }
+      ]
+    },
+    "freeCodeCamp": {
+      "more": "https://www.freecodecamp.org/MGSimard/",
+      "projects": [
+        {
+          "title": "Pokémon Search App",
+          "tags": "freeCodeCamp, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/build-a-pokemon-search-app/thumb.webp",
+          "link": "https://mgsimard.github.io/freecodecamp/build-a-pokemon-search-app/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Video Game Sales",
+          "tags": "freeCodeCamp, Vanilla, Dataviz, D3.js",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_games.webp",
+          "link": "https://codepen.io/MGSimard/full/OJBLBjd",
+          "githubRepo": ""
+        },
+        {
+          "title": "Cloropleth Map",
+          "tags": "freeCodeCamp, Vanilla, Dataviz, D3.js",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_cloropleth.webp",
+          "link": "https://codepen.io/MGSimard/full/QWZLwRP",
+          "githubRepo": ""
+        },
+        {
+          "title": "Heat Map",
+          "tags": "freeCodeCamp, Vanilla, Dataviz, D3.js",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_heatmap.webp",
+          "link": "https://codepen.io/MGSimard/full/rNZXOer",
+          "githubRepo": ""
+        },
+        {
+          "title": "Javascript Calculator",
+          "tags": "freeCodeCamp, React",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_calculator.webp",
+          "link": "https://codepen.io/MGSimard/full/ExeMZbN",
+          "githubRepo": ""
+        },
+        {
+          "title": "Markdown Previewer",
+          "tags": "freeCodeCamp, React",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_markdown.webp",
+          "link": "https://codepen.io/MGSimard/full/poOGqPP",
+          "githubRepo": ""
+        },
+        {
+          "title": "Random Quote Machine",
+          "tags": "freeCodeCamp, React",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_quote.webp",
+          "link": "https://codepen.io/MGSimard/full/abaXyrx",
+          "githubRepo": ""
+        },
+        {
+          "title": "Pomodoro Clock",
+          "tags": "freeCodeCamp, React",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/codepen/thumb_pomodoro.webp",
+          "link": "https://codepen.io/MGSimard/full/PodgjXd",
+          "githubRepo": ""
+        },
+        {
+          "title": "Personal Portfolio",
+          "tags": "freeCodeCamp, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/personal-portfolio-page/thumb.webp",
+          "link": "https://mgsimard.github.io/freecodecamp/personal-portfolio-page/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Sign-Up Form",
+          "tags": "freeCodeCamp, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/survey-form/thumb.webp",
+          "link": "https://mgsimard.github.io/freecodecamp/survey-form/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Documentation Page",
+          "tags": "freeCodeCamp, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/technical-documentation-page/thumb.webp",
+          "link": "https://mgsimard.github.io/freecodecamp/technical-documentation-page/index.html",
+          "githubRepo": ""
+        },
+        {
+          "title": "Character Page",
+          "tags": "freeCodeCamp, Vanilla",
+          "thumbnail": "https://mgsimard.github.io/freecodecamp/tribute-page/thumb.webp",
+          "link": "https://mgsimard.github.io/freecodecamp/tribute-page/index.html",
+          "githubRepo": ""
+        }
+      ]
+    }
+  }
+}

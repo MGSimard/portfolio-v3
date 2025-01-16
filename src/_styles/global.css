@@ -13,7 +13,7 @@
   --clrDetail: hsl(0, 0%, 67%); /* Silver */
 
   --siteWidth: 1440px;
-  --sitePadding: 2rem;
+  --sitePadding: 4rem;
   --sidebarWidth: 38rem;
 }
 html {
@@ -64,6 +64,9 @@ header {
 }
 main {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
   padding: 4rem var(--sitePadding) 4rem calc(var(--sidebarWidth) + var(--sitePadding));
 }
 /**/
@@ -74,8 +77,13 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Barlow Condensed";
+  font-family: "Geist Mono";
   color: var(--clrHeading);
+  letter-spacing: -0.01em;
+}
+h2 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
 }
 a {
   color: inherit;
@@ -133,8 +141,104 @@ ul {
 #header-gamedev {
   background-image: url(/assets/bg.webp);
 }
+#page-title {
+  font-size: 10rem;
+  color: var(--clrText);
+  mix-blend-mode: color-burn;
+}
+.page-title-text {
+  color: var(--clrHeading);
+  background: var(--clrPrimary);
+  padding: 0 0.1em;
+}
+/* .blink-thing {
+  animation: blink 1s steps(1, start) infinite;
+} TODO: Idk if I want this animated */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .detail {
   color: var(--clrDetail);
+}
+.view-all {
+  margin-left: 0.5em;
+  font-size: 0.5em;
+  font-weight: 200;
+  letter-spacing: -0.08em;
+  color: var(--clrDetail);
+  transition: color ease 0.2s;
+}
+.view-all:hover {
+  color: var(--clrPrimary);
+  text-decoration: underline;
+}
+.view-all svg {
+  height: 0.6em;
+  width: 0.6em;
+  vertical-align: text-top;
+}
+.view-all:not(:hover) svg {
+  opacity: 0;
+}
+.grid-6x {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 1rem;
+}
+.project-preview {
+  position: relative;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  transition: all ease 0.2s;
+  border-radius: 0.6rem;
+  border: 0.1rem solid transparent;
+}
+.project-preview:hover,
+.project-preview:has(:focus-visible) {
+  border-color: var(--clrPrimary);
+}
+.project-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 100%;
+  text-shadow:
+    0 0 0.1rem var(--clrBg),
+    0 0 0.5rem var(--clrBg),
+    0 0 1.5rem var(--clrBg);
+}
+.project-title {
+  font-weight: 700;
+}
+.project-tags {
+  font-size: 0.7em;
+}
+.project-github {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+}
+.project-github:hover {
+  opacity: 1;
+}
+.project-github svg {
+  height: 3rem;
+  width: 3rem;
 }
 /**/
 /* NAV */
@@ -146,7 +250,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 2rem;
+  padding: 4rem;
   width: var(--sidebarWidth);
   background: var(--clrBgLight);
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
@@ -178,6 +282,7 @@ nav {
   font-family: "Barlow Condensed";
   font-size: 4rem;
   font-weight: 500;
+  color: var(--clrHeading);
 }
 #tagline {
   color: var(--clrDetail);
@@ -196,7 +301,7 @@ nav {
   margin-right: 1rem;
 }
 #bio p:not(:last-child) {
-  margin-bottom: 2ch;
+  margin-bottom: 1em;
 }
 #nav-links {
   display: flex;
@@ -210,7 +315,7 @@ nav {
   padding: 1rem;
   font-size: 2rem;
   border-radius: 0.6rem;
-  transition: background 0.2s ease;
+  transition: all 0.2s ease;
 }
 #nav-links .active {
   color: var(--clrDetail);

@@ -6,9 +6,9 @@
 - [x] Enable React Compiler
 - [x] Set up TanStack Router
 - [x] Push to GitHub
-- [ ] Layout, site styles & design
+- [x] Layout, site styles & design
 - [x] Find font(s)
-- [ ] Webdev page
+- [x] Webdev page
 - [ ] Metadata & Icons
 - [ ] Buy Domain Name
 - [x] Set up Cloudflare Pages
