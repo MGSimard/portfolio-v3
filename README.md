@@ -6,17 +6,17 @@
 - [x] Enable React Compiler
 - [x] Set up TanStack Router
 - [x] Push to GitHub
+- [x] Set up Cloudflare Pages
+- [x] Link GitHub repo to Cloudflare Pages w/ autodeploy
 - [x] Layout, site styles & design
 - [x] Find font(s)
 - [x] Webdev page
-- [ ] Metadata & Icons
-- [ ] Buy Domain Name
-- [x] Set up Cloudflare Pages
-- [ ] Set up nameserver pointers
-- [x] Link GitHub repo to Cloudflare Pages w/ autodeploy
 - [ ] Gamedev page
 - [ ] Responsive Nav (Side drawer)
 - [ ] Responsive grids
+- [ ] Metadata & Icons
+- [ ] Buy Domain Name
+- [ ] Set up nameserver pointers
 - [ ] ...
 - [ ] Consider badges instead of text for text stack bio in nav sidebar
 - [ ] @container has decent adoption by now, see if I can find an excuse to use it?
