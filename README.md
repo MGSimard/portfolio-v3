@@ -15,6 +15,8 @@
 - [ ] Set up nameserver pointers
 - [x] Link GitHub repo to Cloudflare Pages w/ autodeploy
 - [ ] Gamedev page
+- [ ] Responsive Nav (Side drawer)
+- [ ] Responsive grids
 - [ ] ...
 - [ ] Consider badges instead of text for text stack bio in nav sidebar
 - [ ] @container has decent adoption by now, see if I can find an excuse to use it?
