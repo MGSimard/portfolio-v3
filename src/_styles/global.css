@@ -17,12 +17,13 @@
   --sidebarWidth: 38rem;
 }
 html {
-  color: var(--clrText);
   font-size: 62.5%;
 }
 body {
-  background: var(--clrBg);
+  font-family: "Geist Sans", "Arial", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 1.6rem;
+  color: var(--clrText);
+  background: var(--clrBg);
 }
 body:has(#hero) {
   background:
@@ -87,9 +88,11 @@ img {
 button {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 0.5rem 1rem;
   color: var(--clrText);
+  font-family: inherit;
   text-align: center;
   border: none;
   border-radius: 0.6rem;

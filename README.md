@@ -7,7 +7,7 @@
 - [x] Set up TanStack Router
 - [x] Push to GitHub
 - [ ] Layout, site styles & design
-- [ ] Find font(s)
+- [x] Find font(s)
 - [ ] Webdev page
 - [ ] Metadata & Icons
 - [ ] Buy Domain Name

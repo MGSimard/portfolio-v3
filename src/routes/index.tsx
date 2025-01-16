@@ -8,7 +8,7 @@ export const Route = createFileRoute("/")({
 function RouteIndex() {
   const socials = [
     { linkTo: "https://github.com/MGSimard/", icon: <IconGitHub /> },
-    { linkTo: "https://twitter.com/MGSimard/", icon: <IconX /> },
+    { linkTo: "https://x.com/MGSimard/", icon: <IconX /> },
     { linkTo: "https://www.linkedin.com/in/mgsimard/", icon: <IconLinkedIn /> },
     { linkTo: "https://www.freecodecamp.org/MGSimard/", icon: <IconFCC /> },
     { linkTo: "https://www.frontendmentor.io/profile/MGSimard", icon: <IconFEM /> },
