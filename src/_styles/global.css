@@ -79,7 +79,6 @@ h5,
 h6 {
   font-family: "Geist Mono";
   color: var(--clrHeading);
-  letter-spacing: -0.01em;
 }
 h2 {
   font-size: 4rem;
