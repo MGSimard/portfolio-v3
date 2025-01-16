@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 :root {
   --clrPrimary: hsl(0, 95%, 62%); /* Imperial Red */
@@ -228,10 +227,19 @@ nav {
   gap: 1rem;
   margin-top: auto;
 }
+#socials li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.2s ease;
+}
+#socials:has(li:hover) li:not(:hover) {
+  opacity: 0.6;
+}
 #socials svg {
+  display: block;
   height: 1em;
   width: 1em;
-  vertical-align: bottom;
 }
 /**/
 /* HOMEPAGE */

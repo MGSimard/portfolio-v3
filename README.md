@@ -11,9 +11,9 @@
 - [ ] Webdev page
 - [ ] Metadata & Icons
 - [ ] Buy Domain Name
-- [ ] Set up Cloudflare Pages
+- [x] Set up Cloudflare Pages
 - [ ] Set up nameserver pointers
-- [ ] Link GitHub repo to Cloudflare Pages w/ autodeploy
+- [x] Link GitHub repo to Cloudflare Pages w/ autodeploy
 - [ ] Gamedev page
 - [ ] ...
 - [ ] Consider badges instead of text for text stack bio in nav sidebar
