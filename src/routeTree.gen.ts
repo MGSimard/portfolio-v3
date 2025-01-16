@@ -13,25 +13,32 @@ import { createFileRoute } from '@tanstack/react-router'
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as IndexImport } from './routes/index'
 
 // Create Virtual Routes
 
-const AboutLazyImport = createFileRoute('/about')()
-const IndexLazyImport = createFileRoute('/')()
+const WebdevLazyImport = createFileRoute('/webdev')()
+const GamedevLazyImport = createFileRoute('/gamedev')()
 
 // Create/Update Routes
 
-const AboutLazyRoute = AboutLazyImport.update({
-  id: '/about',
-  path: '/about',
+const WebdevLazyRoute = WebdevLazyImport.update({
+  id: '/webdev',
+  path: '/webdev',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/about.lazy').then((d) => d.Route))
+} as any).lazy(() => import('./routes/webdev.lazy').then((d) => d.Route))
 
-const IndexLazyRoute = IndexLazyImport.update({
+const GamedevLazyRoute = GamedevLazyImport.update({
+  id: '/gamedev',
+  path: '/gamedev',
+  getParentRoute: () => rootRoute,
+} as any).lazy(() => import('./routes/gamedev.lazy').then((d) => d.Route))
+
+const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/index.lazy').then((d) => d.Route))
+} as any)
 
 // Populate the FileRoutesByPath interface
 
@@ -41,14 +48,21 @@ declare module '@tanstack/react-router' {
       id: '/'
       path: '/'
       fullPath: '/'
-      preLoaderRoute: typeof IndexLazyImport
+      preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutLazyImport
+    '/gamedev': {
+      id: '/gamedev'
+      path: '/gamedev'
+      fullPath: '/gamedev'
+      preLoaderRoute: typeof GamedevLazyImport
+      parentRoute: typeof rootRoute
+    }
+    '/webdev': {
+      id: '/webdev'
+      path: '/webdev'
+      fullPath: '/webdev'
+      preLoaderRoute: typeof WebdevLazyImport
       parentRoute: typeof rootRoute
     }
   }
@@ -57,38 +71,43 @@ declare module '@tanstack/react-router' {
 // Create and export the route tree
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexLazyRoute
-  '/about': typeof AboutLazyRoute
+  '/': typeof IndexRoute
+  '/gamedev': typeof GamedevLazyRoute
+  '/webdev': typeof WebdevLazyRoute
 }
 
 export interface FileRoutesByTo {
-  '/': typeof IndexLazyRoute
-  '/about': typeof AboutLazyRoute
+  '/': typeof IndexRoute
+  '/gamedev': typeof GamedevLazyRoute
+  '/webdev': typeof WebdevLazyRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
-  '/': typeof IndexLazyRoute
-  '/about': typeof AboutLazyRoute
+  '/': typeof IndexRoute
+  '/gamedev': typeof GamedevLazyRoute
+  '/webdev': typeof WebdevLazyRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about'
+  fullPaths: '/' | '/gamedev' | '/webdev'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about'
-  id: '__root__' | '/' | '/about'
+  to: '/' | '/gamedev' | '/webdev'
+  id: '__root__' | '/' | '/gamedev' | '/webdev'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
-  IndexLazyRoute: typeof IndexLazyRoute
-  AboutLazyRoute: typeof AboutLazyRoute
+  IndexRoute: typeof IndexRoute
+  GamedevLazyRoute: typeof GamedevLazyRoute
+  WebdevLazyRoute: typeof WebdevLazyRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
-  IndexLazyRoute: IndexLazyRoute,
-  AboutLazyRoute: AboutLazyRoute,
+  IndexRoute: IndexRoute,
+  GamedevLazyRoute: GamedevLazyRoute,
+  WebdevLazyRoute: WebdevLazyRoute,
 }
 
 export const routeTree = rootRoute
@@ -102,14 +121,18 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/about"
+        "/gamedev",
+        "/webdev"
       ]
     },
     "/": {
-      "filePath": "index.lazy.tsx"
+      "filePath": "index.tsx"
     },
-    "/about": {
-      "filePath": "about.lazy.tsx"
+    "/gamedev": {
+      "filePath": "gamedev.lazy.tsx"
+    },
+    "/webdev": {
+      "filePath": "webdev.lazy.tsx"
     }
   }
 }

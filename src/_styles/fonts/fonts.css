@@ -1,0 +1,137 @@
+/* BARLOW CONDENSED
+Black: 900
+ExtraBold: 800
+Bold: 700
+SemiBold: 600
+Medium: 500
+Regular: 400
+Light: 300
+ExtraLight: 200
+Thin: 100 
+*/
+
+/* BARLOW CONDENSED REGULAR */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED THIN */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-ThinItalic.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED EXTRALIGHT */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-ExtraLightItalic.ttf) format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED LIGHT */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-LightItalic.ttf) format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED MEDIUM */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-MediumItalic.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED SEMIBOLD */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-SemiBoldItalic.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED BOLD */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-BoldItalic.ttf) format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED EXTRABOLD */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-ExtraBoldItalic.ttf) format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+/* BARLOW CONDENSED BLACK */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url(./barlow-condensed/BarlowCondensed-BlackItalic.ttf) format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
