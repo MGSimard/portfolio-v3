@@ -26,7 +26,7 @@ body {
 }
 body:has(#hero) {
   background:
-    url(./assets/bg.webp) no-repeat,
+    url(/assets/bg.webp) no-repeat,
     var(--clrBg);
   background-size: cover;
   background-position: center center;
@@ -56,7 +56,7 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-image: url(./assets/header-divider.webp);
+  background-image: url(/assets/header-divider.webp);
   background-repeat: repeat-x;
   height: 53px;
   width: 100%;
@@ -125,10 +125,10 @@ ul {
   background-color: hsl(240, 2%, 32%);
 }
 #header-webdev {
-  background-image: url(./assets/header-web.webp);
+  background-image: url(/assets/header-web.webp);
 }
 #header-gamedev {
-  background-image: url(./assets/bg.webp);
+  background-image: url(/assets/bg.webp);
 }
 .detail {
   color: var(--clrDetail);
