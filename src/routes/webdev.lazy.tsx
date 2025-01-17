@@ -1,7 +1,7 @@
 import { createLazyFileRoute } from "@tanstack/react-router";
+import projectsWD from "../_data/projectsWD.json";
 import { Header } from "../_components/Header";
 import { ProjectPreview } from "../_components/ProjectPreview";
-import projectsWD from "../_data/projectsWD.json";
 import { IconOut } from "../_components/Icons";
 
 export const Route = createLazyFileRoute("/webdev")({

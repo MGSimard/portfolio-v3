@@ -1,0 +1,55 @@
+{
+  "name": "projectsGD",
+  "description": "Game Development Projects by MGSimard",
+  "author": "MGSimard - https://github.com/MGSimard/",
+  "data": {
+    "Unreal Engine 5": {
+      "more": "",
+      "projects": [
+        {
+          "title": "",
+          "tags": "",
+          "thumbnail": "",
+          "link": "",
+          "githubRepo": ""
+        }
+      ]
+    },
+    "Halo Infinite Forge": {
+      "more": "",
+      "projects": [
+        {
+          "title": "",
+          "tags": "",
+          "thumbnail": "",
+          "link": "",
+          "githubRepo": ""
+        }
+      ]
+    },
+    "Tower Unite": {
+      "more": "",
+      "projects": [
+        {
+          "title": "",
+          "tags": "",
+          "thumbnail": "",
+          "link": "",
+          "githubRepo": ""
+        }
+      ]
+    },
+    "Roblox Studio": {
+      "more": "",
+      "projects": [
+        {
+          "title": "",
+          "tags": "",
+          "thumbnail": "",
+          "link": "",
+          "githubRepo": ""
+        }
+      ]
+    }
+  }
+}
