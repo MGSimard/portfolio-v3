@@ -7,9 +7,9 @@
       "more": "",
       "projects": [
         {
-          "title": "",
-          "tags": "",
-          "thumbnail": "",
+          "title": "Terminal (WIP)",
+          "tags": "Unreal Engine, Blockout, Work in Progress",
+          "thumbnail": "./assets/gd-thumbnails/thumb_terminal.webp",
           "link": "",
           "githubRepo": ""
         }
@@ -19,9 +19,30 @@
       "more": "",
       "projects": [
         {
-          "title": "",
-          "tags": "",
-          "thumbnail": "",
+          "title": "DEATHRUN (WIP)",
+          "tags": "Halo Infinite Forge, Deathrun",
+          "thumbnail": "./assets/gd-thumbnails/thumb_deathrun.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Lake Hot Pursuit",
+          "tags": "Halo Infinite Forge, Cops & Robbers",
+          "thumbnail": "./assets/gd-thumbnails/thumb_lakehotpursuit.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Overdose",
+          "tags": "Halo Infinite Forge, Remake, Infection",
+          "thumbnail": "./assets/gd-thumbnails/thumb_overdose.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Junk Flea",
+          "tags": "Halo Infinite Forge, Remake",
+          "thumbnail": "./assets/gd-thumbnails/thumb_junkflea.webp",
           "link": "",
           "githubRepo": ""
         }
@@ -31,9 +52,37 @@
       "more": "",
       "projects": [
         {
-          "title": "",
-          "tags": "",
-          "thumbnail": "",
+          "title": "Station 58",
+          "tags": "Tower Unite, Escape Room, Puzzle, Horror",
+          "thumbnail": "./assets/gd-thumbnails/thumb_station58.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Lumbridge Castle",
+          "tags": "Tower Unite, Remake, Social",
+          "thumbnail": "./assets/gd-thumbnails/thumb_lumbridgecastle.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Quindecim",
+          "tags": "Tower Unite, Remake, Social",
+          "thumbnail": "./assets/gd-thumbnails/thumb_quindecim.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Exploded Cinema",
+          "tags": "Tower Unite, Social",
+          "thumbnail": "./assets/gd-thumbnails/thumb_explodedcinema.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Misc",
+          "tags": "Tower Unite, Other",
+          "thumbnail": "./assets/gd-thumbnails/thumb_tumisc.webp",
           "link": "",
           "githubRepo": ""
         }
@@ -43,9 +92,16 @@
       "more": "",
       "projects": [
         {
-          "title": "",
-          "tags": "",
-          "thumbnail": "",
+          "title": "mp_shop",
+          "tags": "Roblox Studio, Remake",
+          "thumbnail": "./assets/gd-thumbnails/thumb_mpshop.webp",
+          "link": "",
+          "githubRepo": ""
+        },
+        {
+          "title": "Q3DM17",
+          "tags": "Roblox Studio, Remake",
+          "thumbnail": "./assets/gd-thumbnails/thumb_q3dm17.webp",
           "link": "",
           "githubRepo": ""
         }

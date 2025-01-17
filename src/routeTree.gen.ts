@@ -8,31 +8,26 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { createFileRoute } from '@tanstack/react-router'
-
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as WebdevImport } from './routes/webdev'
+import { Route as GamedevImport } from './routes/gamedev'
 import { Route as IndexImport } from './routes/index'
-
-// Create Virtual Routes
-
-const WebdevLazyImport = createFileRoute('/webdev')()
-const GamedevLazyImport = createFileRoute('/gamedev')()
 
 // Create/Update Routes
 
-const WebdevLazyRoute = WebdevLazyImport.update({
+const WebdevRoute = WebdevImport.update({
   id: '/webdev',
   path: '/webdev',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/webdev.lazy').then((d) => d.Route))
+} as any)
 
-const GamedevLazyRoute = GamedevLazyImport.update({
+const GamedevRoute = GamedevImport.update({
   id: '/gamedev',
   path: '/gamedev',
   getParentRoute: () => rootRoute,
-} as any).lazy(() => import('./routes/gamedev.lazy').then((d) => d.Route))
+} as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
@@ -55,14 +50,14 @@ declare module '@tanstack/react-router' {
       id: '/gamedev'
       path: '/gamedev'
       fullPath: '/gamedev'
-      preLoaderRoute: typeof GamedevLazyImport
+      preLoaderRoute: typeof GamedevImport
       parentRoute: typeof rootRoute
     }
     '/webdev': {
       id: '/webdev'
       path: '/webdev'
       fullPath: '/webdev'
-      preLoaderRoute: typeof WebdevLazyImport
+      preLoaderRoute: typeof WebdevImport
       parentRoute: typeof rootRoute
     }
   }
@@ -72,21 +67,21 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/gamedev': typeof GamedevLazyRoute
-  '/webdev': typeof WebdevLazyRoute
+  '/gamedev': typeof GamedevRoute
+  '/webdev': typeof WebdevRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/gamedev': typeof GamedevLazyRoute
-  '/webdev': typeof WebdevLazyRoute
+  '/gamedev': typeof GamedevRoute
+  '/webdev': typeof WebdevRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/gamedev': typeof GamedevLazyRoute
-  '/webdev': typeof WebdevLazyRoute
+  '/gamedev': typeof GamedevRoute
+  '/webdev': typeof WebdevRoute
 }
 
 export interface FileRouteTypes {
@@ -100,14 +95,14 @@ export interface FileRouteTypes {
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  GamedevLazyRoute: typeof GamedevLazyRoute
-  WebdevLazyRoute: typeof WebdevLazyRoute
+  GamedevRoute: typeof GamedevRoute
+  WebdevRoute: typeof WebdevRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  GamedevLazyRoute: GamedevLazyRoute,
-  WebdevLazyRoute: WebdevLazyRoute,
+  GamedevRoute: GamedevRoute,
+  WebdevRoute: WebdevRoute,
 }
 
 export const routeTree = rootRoute
@@ -129,10 +124,10 @@ export const routeTree = rootRoute
       "filePath": "index.tsx"
     },
     "/gamedev": {
-      "filePath": "gamedev.lazy.tsx"
+      "filePath": "gamedev.tsx"
     },
     "/webdev": {
-      "filePath": "webdev.lazy.tsx"
+      "filePath": "webdev.tsx"
     }
   }
 }

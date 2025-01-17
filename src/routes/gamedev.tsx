@@ -1,21 +1,21 @@
-import { createLazyFileRoute } from "@tanstack/react-router";
-import projectsWD from "../_data/projectsWD.json";
+import { createFileRoute } from "@tanstack/react-router";
+import projectsGD from "../_data/projectsGD.json";
 import { Header } from "../_components/Header";
 import { ProjectPreview } from "../_components/ProjectPreview";
 import { IconOut } from "../_components/Icons";
 
-export const Route = createLazyFileRoute("/webdev")({
-  component: RouteWebdev,
+export const Route = createFileRoute("/gamedev")({
+  component: RouteGamedev,
 });
 
-function RouteWebdev() {
-  const webdevProjects = projectsWD.data;
+function RouteGamedev() {
+  const gamedevProjects = projectsGD.data;
 
   return (
     <>
-      <Header id="header-webdev" pageTitle="WEB DEVELOPMENT" />
+      <Header id="header-gamedev" pageTitle="GAME DEVELOPMENT" />
       <main>
-        {Object.entries(webdevProjects).map(([section, projects]) => (
+        {Object.entries(gamedevProjects).map(([section, projects]) => (
           <section key={section}>
             <h2 className="section-title">
               {section}

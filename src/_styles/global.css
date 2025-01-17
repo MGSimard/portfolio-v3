@@ -11,8 +11,9 @@
   --clrHeading: hsl(0, 0%, 100%); /* White */
   --clrText: hsl(240, 9%, 91%); /* Offwhite */
   --clrDetail: hsl(0, 0%, 67%); /* Silver */
+  --clrScroll: hsl(240, 3%, 19%);
 
-  --siteWidth: 1440px;
+  --siteWidth: 2560px;
   --sitePadding: 4rem;
   --sidebarWidth: 38rem;
 }
@@ -24,6 +25,7 @@ body {
   font-size: 1.6rem;
   color: var(--clrText);
   background: var(--clrBg);
+  overflow-x: hidden;
 }
 body:has(#hero) {
   background:
@@ -57,16 +59,17 @@ header {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
+  height: 53px;
   background-image: url(/assets/header-divider.webp);
   background-repeat: repeat-x;
-  height: 53px;
-  width: 100%;
 }
 main {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  max-width: var(--siteWidth);
   padding: 4rem var(--sitePadding) 4rem calc(var(--sidebarWidth) + var(--sitePadding));
 }
 /**/
@@ -79,10 +82,11 @@ h5,
 h6 {
   font-family: "Geist Mono";
   color: var(--clrHeading);
+  letter-spacing: -0.03em;
 }
 h2 {
-  font-size: 4rem;
   margin-bottom: 2rem;
+  font-size: 4rem;
 }
 a {
   color: inherit;
@@ -146,9 +150,9 @@ ul {
   mix-blend-mode: color-burn;
 }
 .page-title-text {
+  padding: 0 0.1em;
   color: var(--clrHeading);
   background: var(--clrPrimary);
-  padding: 0 0.1em;
 }
 /* .blink-thing {
   animation: blink 1s steps(1, start) infinite;
@@ -180,8 +184,8 @@ ul {
   text-decoration: underline;
 }
 .view-all svg {
-  height: 0.6em;
   width: 0.6em;
+  height: 0.6em;
   vertical-align: text-top;
 }
 .view-all:not(:hover) svg {
@@ -211,8 +215,8 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1rem;
   height: 100%;
+  padding: 1rem;
   text-shadow:
     0 0 0.1rem var(--clrBg),
     0 0 0.5rem var(--clrBg),
@@ -236,8 +240,8 @@ ul {
   opacity: 1;
 }
 .project-github svg {
-  height: 3rem;
   width: 3rem;
+  height: 3rem;
 }
 /**/
 /* NAV */
@@ -249,12 +253,14 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 4rem;
   width: var(--sidebarWidth);
+  padding: 2rem 4rem;
   background: var(--clrBgLight);
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8);
-  z-index: 9999;
   overflow: hidden auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--clrScroll) var(--clrBgLight);
+  z-index: 9999;
 }
 #author {
   display: flex;
@@ -265,8 +271,8 @@ nav {
   text-align: center;
 }
 #author-logo {
-  padding: 2rem;
   aspect-ratio: 1/1;
+  padding: 2rem;
   font-family: "Barlow Condensed";
   color: var(--clrPrimary);
   font-size: 10rem;
@@ -294,10 +300,10 @@ nav {
   margin-bottom: 0.5rem;
 }
 #contact ul svg {
-  height: 1em;
   width: 1em;
-  vertical-align: middle;
+  height: 1em;
   margin-right: 1rem;
+  vertical-align: middle;
 }
 #bio p:not(:last-child) {
   margin-bottom: 1em;
@@ -345,8 +351,8 @@ nav {
 }
 #socials svg {
   display: block;
-  height: 1em;
   width: 1em;
+  height: 1em;
 }
 /**/
 /* HOMEPAGE */
@@ -358,10 +364,10 @@ nav {
   text-align: center;
 }
 #hero h1 {
+  margin-bottom: 2rem;
   font-size: 20rem;
   color: var(--clrText);
   border-bottom: 1rem solid var(--clrPrimary);
-  margin-bottom: 2rem;
   mix-blend-mode: color-burn;
 }
 #hero-socials {

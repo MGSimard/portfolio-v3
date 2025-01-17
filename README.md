@@ -11,6 +11,7 @@
 - [x] Layout, site styles & design
 - [x] Find font(s)
 - [x] Webdev page
+- [x] Custom nav scrollbar
 - [ ] Gamedev page
 - [ ] Responsive Nav (Side drawer)
 - [ ] Responsive grids
@@ -22,5 +23,6 @@
 - [ ] @container has decent adoption by now, see if I can find an excuse to use it?
 - [ ] New webdev header image
 - [ ] Center // in its container somehow (Trying avatar as text instead of actual image)
+- [ ] 404 & error pages
 
 </details>
