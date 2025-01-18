@@ -8,6 +8,7 @@ import {
   IconHome,
   IconLinkedIn,
   IconMail,
+  IconMGS,
   IconPin,
   IconPuzzle,
   IconX,
@@ -32,7 +33,7 @@ export function Nav() {
     <nav>
       <div id="author">
         <Link to="/" id="author-logo">
-          //
+          <IconMGS />
         </Link>
         <div id="author-info">
           <span id="author-name">MGSimard</span>

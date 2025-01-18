@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 :root {
   --clrPrimary: hsl(0, 95%, 62%); /* Imperial Red */
@@ -300,14 +300,17 @@ nav {
   text-align: center;
 }
 #author-logo {
-  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  height: 12rem;
   padding: 2rem;
-  font-family: "Barlow Condensed";
   color: var(--clrPrimary);
-  font-size: 10rem;
-  font-weight: 900;
   background: var(--clrBg);
   border-radius: 999rem;
+}
+#author-logo svg {
 }
 #author-info span {
   display: block;
