@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 :root {
   --clrPrimary: hsl(0, 95%, 62%); /* Imperial Red */
@@ -65,9 +64,6 @@ header {
   height: 53px;
   background-image: url(/assets/header-divider.webp);
   background-repeat: repeat-x;
-}
-section p {
-  border: 2px solid green;
 }
 main {
   flex-grow: 1;
@@ -149,7 +145,8 @@ ul {
 #header-gamedev {
   background-image: url(/assets/bg.webp);
 }
-#header-terminal {
+#header-ue-terminal {
+  background-image: url(/assets/gamedev/unreal-engine/terminal/terminal_2.webp);
 }
 #page-title {
   font-size: 10rem;
@@ -202,6 +199,9 @@ ul {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 1rem;
+}
+.gallery img {
+  border-radius: 0.6rem;
 }
 .grid-2-1x {
   display: grid;
@@ -309,8 +309,6 @@ nav {
   color: var(--clrPrimary);
   background: var(--clrBg);
   border-radius: 999rem;
-}
-#author-logo svg {
 }
 #author-info span {
   display: block;

@@ -12,9 +12,10 @@
 - [x] Find font(s)
 - [x] Webdev page
 - [x] Custom nav scrollbar
-- [ ] Gamedev page
+- [x] Gamedev page
 - [ ] Responsive Nav (Side drawer)
 - [ ] Responsive grids
+- [ ] Lightbox system (single & galleries)
 - [ ] Metadata & Icons
 - [ ] Buy Domain Name
 - [ ] Set up nameserver pointers
@@ -24,5 +25,6 @@
 - [ ] New webdev header image
 - [ ] Center // in its container somehow (Trying avatar as text instead of actual image)
 - [ ] 404 & error pages
+- [ ] Go over all preload and lazyload behaviours
 
 </details>

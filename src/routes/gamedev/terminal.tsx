@@ -8,11 +8,12 @@ export const Route = createFileRoute("/gamedev/terminal")({
 function RouteTerminal() {
   return (
     <>
-      <Header id="ue-terminal" pageTitle="LEVEL DESIGN //" detached=" Terminal" />
+      <Header id="header-ue-terminal" pageTitle="LEVEL DESIGN //" detached=" Terminal" />
       <main>
         <section>
           <h2>Terminal</h2>
-          <div className="grid-2-1x">
+          <div className="grid-1-2x">
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_2.webp" alt="IMG" />
             <div className="p-page-meta">
               <ul>
                 <li>
@@ -30,13 +31,12 @@ function RouteTerminal() {
                 software like Blender.
               </p>
             </div>
-            <img alt="IMG" />
           </div>
         </section>
         <section>
           <h2>Log 1</h2>
           <div>
-            <img alt="IMG" className="float-left" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_1.webp" alt="IMG" className="float-right" />
             <p>
               Jumped into experimenting with UE5's built-in modeling tools and some blueprint-based tools through Lyra.
               Drew up a couple sections and then started mapping them out in low detail. Geo dimensions is partly based
@@ -63,24 +63,20 @@ function RouteTerminal() {
         </section>
         <section>
           <h2>Gallery</h2>
-          <div className="grid-6x">
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-          </div>
-        </section>
-        <section>
-          <h2>Scripting</h2>
-          <div className="grid-6x">
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
-            <img alt="IMG" />
+          <div className="grid-6x gallery">
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_1.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_2.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_3.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_4.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_5.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_6.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_7.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_8.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_9.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_10.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_11.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_12.webp" alt="IMG" loading="lazy" />
+            <img src="/assets/gamedev/unreal-engine/terminal/terminal_13.webp" alt="IMG" loading="lazy" />
           </div>
         </section>
       </main>
