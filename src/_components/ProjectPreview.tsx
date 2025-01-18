@@ -8,7 +8,7 @@ interface ProjectDataTypes {
   githubRepo?: string;
 }
 
-export function ProjectPreview({ projectData }: { projectData: ProjectDataTypes }) {
+export function ProjectPreview({ projectData, newtab }: { projectData: ProjectDataTypes; newtab: boolean }) {
   const { title, tags, thumbnail, link, githubRepo } = projectData;
 
   return (
@@ -22,7 +22,7 @@ export function ProjectPreview({ projectData }: { projectData: ProjectDataTypes 
           hsla(from var(--clrBg) h s l / 0.7) 100%
         ), url(${thumbnail})`,
       }}>
-      <a href={link} target="_blank" title={title} className="project-meta">
+      <a href={link} target={newtab ? "_blank" : "_self"} title={title} className="project-meta">
         <span className="project-title">{title}</span>
         <span className="project-tags">{tags}</span>
       </a>

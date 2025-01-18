@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
-import projectsGD from "../_data/projectsGD.json";
-import { Header } from "../_components/Header";
-import { ProjectPreview } from "../_components/ProjectPreview";
-import { IconOut } from "../_components/Icons";
+import projectsGD from "../../_data/projectsGD.json";
+import { Header } from "../../_components/Header";
+import { ProjectPreview } from "../../_components/ProjectPreview";
+import { IconOut } from "../../_components/Icons";
 
-export const Route = createFileRoute("/gamedev")({
+export const Route = createFileRoute("/gamedev/")({
   component: RouteGamedev,
 });
 
@@ -28,7 +28,7 @@ function RouteGamedev() {
             </h2>
             <ul className="grid-6x">
               {projects.projects.map((project) => (
-                <ProjectPreview key={project.title} projectData={project} />
+                <ProjectPreview key={project.title} projectData={project} newtab={false} />
               ))}
             </ul>
           </section>

@@ -28,7 +28,7 @@ function RouteWebdev() {
             </h2>
             <ul className="grid-6x">
               {projects.projects.map((project) => (
-                <ProjectPreview key={project.title} projectData={project} />
+                <ProjectPreview key={project.title} projectData={project} newtab={true} />
               ))}
             </ul>
           </section>

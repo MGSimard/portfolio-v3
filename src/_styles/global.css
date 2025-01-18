@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 :root {
   --clrPrimary: hsl(0, 95%, 62%); /* Imperial Red */
@@ -54,6 +55,7 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  overflow: hidden;
 }
 .header-divider {
   position: absolute;
@@ -63,6 +65,9 @@ header {
   height: 53px;
   background-image: url(/assets/header-divider.webp);
   background-repeat: repeat-x;
+}
+section p {
+  border: 2px solid green;
 }
 main {
   flex-grow: 1;
@@ -144,6 +149,8 @@ ul {
 #header-gamedev {
   background-image: url(/assets/bg.webp);
 }
+#header-terminal {
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
@@ -195,6 +202,28 @@ ul {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 1rem;
+}
+.grid-2-1x {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2rem;
+}
+.grid-1-2x {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: 2rem;
+}
+.float-left {
+  float: left;
+  max-width: 30%;
+  width: 100%;
+  margin-right: 2rem;
+}
+.float-right {
+  float: right;
+  max-width: 30%;
+  width: 100%;
+  margin-right: 2rem;
 }
 .project-preview {
   position: relative;
@@ -389,4 +418,11 @@ nav {
 }
 #hero-socials svg {
   height: 2em;
+}
+/* PROJECT PAGE */
+.p-page-meta > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+section p:not(:last-child) {
+  margin-bottom: 1em;
 }

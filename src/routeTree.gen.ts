@@ -12,8 +12,9 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as WebdevImport } from './routes/webdev'
-import { Route as GamedevImport } from './routes/gamedev'
 import { Route as IndexImport } from './routes/index'
+import { Route as GamedevIndexImport } from './routes/gamedev/index'
+import { Route as GamedevTerminalImport } from './routes/gamedev/terminal'
 
 // Create/Update Routes
 
@@ -23,15 +24,21 @@ const WebdevRoute = WebdevImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
-const GamedevRoute = GamedevImport.update({
-  id: '/gamedev',
-  path: '/gamedev',
-  getParentRoute: () => rootRoute,
-} as any)
-
 const IndexRoute = IndexImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const GamedevIndexRoute = GamedevIndexImport.update({
+  id: '/gamedev/',
+  path: '/gamedev/',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const GamedevTerminalRoute = GamedevTerminalImport.update({
+  id: '/gamedev/terminal',
+  path: '/gamedev/terminal',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -46,18 +53,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
-    '/gamedev': {
-      id: '/gamedev'
-      path: '/gamedev'
-      fullPath: '/gamedev'
-      preLoaderRoute: typeof GamedevImport
-      parentRoute: typeof rootRoute
-    }
     '/webdev': {
       id: '/webdev'
       path: '/webdev'
       fullPath: '/webdev'
       preLoaderRoute: typeof WebdevImport
+      parentRoute: typeof rootRoute
+    }
+    '/gamedev/terminal': {
+      id: '/gamedev/terminal'
+      path: '/gamedev/terminal'
+      fullPath: '/gamedev/terminal'
+      preLoaderRoute: typeof GamedevTerminalImport
+      parentRoute: typeof rootRoute
+    }
+    '/gamedev/': {
+      id: '/gamedev/'
+      path: '/gamedev'
+      fullPath: '/gamedev'
+      preLoaderRoute: typeof GamedevIndexImport
       parentRoute: typeof rootRoute
     }
   }
@@ -67,42 +81,47 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/gamedev': typeof GamedevRoute
   '/webdev': typeof WebdevRoute
+  '/gamedev/terminal': typeof GamedevTerminalRoute
+  '/gamedev': typeof GamedevIndexRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/gamedev': typeof GamedevRoute
   '/webdev': typeof WebdevRoute
+  '/gamedev/terminal': typeof GamedevTerminalRoute
+  '/gamedev': typeof GamedevIndexRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
-  '/gamedev': typeof GamedevRoute
   '/webdev': typeof WebdevRoute
+  '/gamedev/terminal': typeof GamedevTerminalRoute
+  '/gamedev/': typeof GamedevIndexRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/gamedev' | '/webdev'
+  fullPaths: '/' | '/webdev' | '/gamedev/terminal' | '/gamedev'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/gamedev' | '/webdev'
-  id: '__root__' | '/' | '/gamedev' | '/webdev'
+  to: '/' | '/webdev' | '/gamedev/terminal' | '/gamedev'
+  id: '__root__' | '/' | '/webdev' | '/gamedev/terminal' | '/gamedev/'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  GamedevRoute: typeof GamedevRoute
   WebdevRoute: typeof WebdevRoute
+  GamedevTerminalRoute: typeof GamedevTerminalRoute
+  GamedevIndexRoute: typeof GamedevIndexRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  GamedevRoute: GamedevRoute,
   WebdevRoute: WebdevRoute,
+  GamedevTerminalRoute: GamedevTerminalRoute,
+  GamedevIndexRoute: GamedevIndexRoute,
 }
 
 export const routeTree = rootRoute
@@ -116,18 +135,22 @@ export const routeTree = rootRoute
       "filePath": "__root.tsx",
       "children": [
         "/",
-        "/gamedev",
-        "/webdev"
+        "/webdev",
+        "/gamedev/terminal",
+        "/gamedev/"
       ]
     },
     "/": {
       "filePath": "index.tsx"
     },
-    "/gamedev": {
-      "filePath": "gamedev.tsx"
-    },
     "/webdev": {
       "filePath": "webdev.tsx"
+    },
+    "/gamedev/terminal": {
+      "filePath": "gamedev/terminal.tsx"
+    },
+    "/gamedev/": {
+      "filePath": "gamedev/index.tsx"
     }
   }
 }
