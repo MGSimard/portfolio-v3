@@ -16,7 +16,7 @@ export function Gallery({ imgSrcs }: { imgSrcs: string[] }) {
     <>
       <div className="grid-6x gallery">
         {imgSrcs.map((imgSrc, i) => (
-          <img key={`${imgSrc}-${i}`} src={imgSrc} alt="IMG" loading="lazy" onClick={openLightbox} data-order={i} />
+          <img key={`${imgSrc}-${i}`} src={imgSrc} alt="IMG" onClick={openLightbox} data-order={i} />
         ))}
       </div>
       {lightboxOpen && (
