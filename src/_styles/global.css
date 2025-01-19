@@ -157,7 +157,7 @@ ul {
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
-  mix-blend-mode: color-burn;
+  /* mix-blend-mode: color-burn; */
 }
 .page-title-text {
   padding: 0 0.1em;
@@ -485,7 +485,7 @@ nav {
   font-size: 20rem;
   color: var(--clrText);
   border-bottom: 1rem solid var(--clrPrimary);
-  mix-blend-mode: color-burn;
+  /* mix-blend-mode: color-burn; */
 }
 #hero-socials {
   display: flex;
@@ -496,13 +496,13 @@ nav {
 #hero-socials a {
   display: block;
   opacity: 0.6;
-  mix-blend-mode: color-burn;
+  /* mix-blend-mode: color-burn; */
   transition: all 0.2s ease;
 }
 #hero-socials a:hover {
   opacity: 1;
   transform: scale(1.1);
-  mix-blend-mode: normal;
+  /* mix-blend-mode: normal; */
 }
 #hero-socials svg {
   height: 2em;
