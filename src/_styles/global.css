@@ -227,7 +227,7 @@ ul {
   float: right;
   max-width: 30%;
   width: 100%;
-  margin-right: 2rem;
+  margin-left: 2rem;
 }
 .project-preview {
   position: relative;
