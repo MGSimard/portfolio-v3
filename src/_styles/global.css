@@ -219,14 +219,12 @@ ul {
 }
 .float-left {
   float: left;
-  max-width: 30%;
-  width: 100%;
+  width: 30%;
   margin-right: 2rem;
 }
 .float-right {
   float: right;
-  max-width: 30%;
-  width: 100%;
+  width: 30%;
   margin-left: 2rem;
 }
 .project-preview {
