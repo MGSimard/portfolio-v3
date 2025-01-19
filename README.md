@@ -15,7 +15,8 @@
 - [x] Gamedev page
 - [ ] Responsive Nav (Side drawer)
 - [ ] Responsive grids
-- [ ] Lightbox system (single & galleries)
+- [ ] Make lightbox arrows & X smaller on mobile
+- [x] Lightbox system (single & galleries)
 - [ ] Metadata & Icons
 - [ ] Buy Domain Name
 - [ ] Set up nameserver pointers
@@ -25,6 +26,6 @@
 - [ ] New webdev header image
 - [ ] Center // in its container somehow (Trying avatar as text instead of actual image)
 - [ ] 404 & error pages
-- [ ] Go over all preload and lazyload behaviours
+- [ ] Overall performance pass, preloads, lazyloads etc.
 
 </details>

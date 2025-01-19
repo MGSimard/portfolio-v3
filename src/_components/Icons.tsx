@@ -1,7 +1,7 @@
 export function IconMGS() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21.666462001261266 16.800029303961235">
-      <g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" fill="currentColor">
+      <g id="svgGroup" strokeLinecap="round" fillRule="evenodd" fill="currentColor">
         <path d="M 0.033 16.392 L 5.889 0.288 A 0.471 0.471 0 0 1 5.968 0.139 Q 6.055 0.031 6.206 0.007 A 0.578 0.578 0 0 1 6.297 0 L 10.065 0 A 0.536 0.536 0 0 1 10.167 0.009 Q 10.282 0.031 10.341 0.108 A 0.215 0.215 0 0 1 10.385 0.221 Q 10.393 0.302 10.353 0.408 L 4.497 16.512 A 0.471 0.471 0 0 1 4.419 16.661 Q 4.331 16.769 4.181 16.793 A 0.578 0.578 0 0 1 4.089 16.8 L 0.321 16.8 A 0.536 0.536 0 0 1 0.219 16.791 Q 0.105 16.769 0.045 16.692 A 0.215 0.215 0 0 1 0.001 16.579 Q -0.007 16.498 0.033 16.392 Z M 11.313 16.392 L 17.169 0.288 A 0.471 0.471 0 0 1 17.248 0.139 Q 17.335 0.031 17.486 0.007 A 0.578 0.578 0 0 1 17.577 0 L 21.345 0 A 0.536 0.536 0 0 1 21.447 0.009 Q 21.562 0.031 21.621 0.108 A 0.215 0.215 0 0 1 21.665 0.221 Q 21.673 0.302 21.633 0.408 L 15.777 16.512 A 0.471 0.471 0 0 1 15.699 16.661 Q 15.611 16.769 15.461 16.793 A 0.578 0.578 0 0 1 15.369 16.8 L 11.601 16.8 A 0.536 0.536 0 0 1 11.499 16.791 Q 11.385 16.769 11.325 16.692 A 0.215 0.215 0 0 1 11.281 16.579 Q 11.273 16.498 11.313 16.392 Z" />
       </g>
     </svg>
@@ -117,6 +117,30 @@ export function IconOut() {
         strokeLinejoin="round"
         d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
       />
+    </svg>
+  );
+}
+
+export function IconArrowRight() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+    </svg>
+  );
+}
+
+export function IconArrowLeft() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+    </svg>
+  );
+}
+
+export function IconClose() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
     </svg>
   );
 }

@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "../../_components/Header";
+import { Gallery } from "../../_components/Gallery";
 
 export const Route = createFileRoute("/gamedev/terminal")({
   component: RouteTerminal,
@@ -63,21 +64,23 @@ function RouteTerminal() {
         </section>
         <section>
           <h2>Gallery</h2>
-          <div className="grid-6x gallery">
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_1.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_2.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_3.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_4.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_5.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_6.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_7.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_8.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_9.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_10.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_11.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_12.webp" alt="IMG" loading="lazy" />
-            <img src="/assets/gamedev/unreal-engine/terminal/terminal_13.webp" alt="IMG" loading="lazy" />
-          </div>
+          <Gallery
+            imgSrcs={[
+              "/assets/gamedev/unreal-engine/terminal/terminal_1.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_2.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_3.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_4.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_5.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_6.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_7.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_8.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_9.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_10.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_11.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_12.webp",
+              "/assets/gamedev/unreal-engine/terminal/terminal_13.webp",
+            ]}
+          />
         </section>
       </main>
     </>
