@@ -24,7 +24,6 @@
 - [ ] Consider badges instead of text for text stack bio in nav sidebar
 - [ ] @container has decent adoption by now, see if I can find an excuse to use it?
 - [ ] New webdev header image
-- [ ] Center // in its container somehow (Trying avatar as text instead of actual image)
 - [ ] 404 & error pages
 - [ ] Overall performance pass, preloads, lazyloads etc.
 
