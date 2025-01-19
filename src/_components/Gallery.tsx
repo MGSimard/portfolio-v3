@@ -12,11 +12,15 @@ export function Gallery({ imgSrcs }: { imgSrcs: string[] }) {
     setLightboxOpen(true);
   };
 
+  const thumbify = (src: string) => {
+    return src.replace(".webp", "_thumb.webp");
+  };
+
   return (
     <>
       <div className="grid-6x gallery">
         {imgSrcs.map((imgSrc, i) => (
-          <img key={`${imgSrc}-${i}`} src={imgSrc} alt="IMG" onClick={openLightbox} data-order={i} />
+          <img key={`${imgSrc}-${i}`} src={thumbify(imgSrc)} alt="IMG" onClick={openLightbox} data-order={i} />
         ))}
       </div>
       {lightboxOpen && (
