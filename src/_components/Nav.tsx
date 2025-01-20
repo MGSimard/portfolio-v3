@@ -82,7 +82,7 @@ export function Nav() {
           <Badge icon={<IconTS />} text="TypeScript" />
           <Badge icon={<IconPostgreSQL />} text="PostgreSQL" />
           <Badge icon={<IconReact />} text="React 19" />
-          <Badge icon={<IconNextJs />} text="Next.js" />
+          <Badge icon={<IconNextJs />} text="Next.js 15" />
           <Badge icon={<IconWordpress />} text="Wordpress" />
           <Badge icon={<IconBootstrap />} text="Bootstrap" />
         </div>
