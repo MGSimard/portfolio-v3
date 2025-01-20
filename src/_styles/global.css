@@ -698,6 +698,9 @@ section p:not(:last-child) {
     margin-bottom: 1rem;
   }
   /* Turn nav into mobile nav using Popover API */
+  nav:not(:popover-open) {
+    visibility: hidden;
+  }
   #nav-trigger {
     display: block;
   }

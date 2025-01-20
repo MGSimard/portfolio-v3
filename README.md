@@ -34,10 +34,8 @@
 - [ ] ...
 - [ ] Consider badges instead of text for text stack bio in nav sidebar
 - [ ] @container has decent adoption by now, see if I can find an excuse to use it?
-- [ ] New webdev header image
 - [ ] Fallback fonts to help while loading fonts
-- [ ] Decide if I want to hide nav trigger when nav is open (currently can tap enter again to close nav, feels good actually?)
-
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
+- [ ] Make sure mobile nav visibility hidden when not popover open is the correct play
 
 </details>
