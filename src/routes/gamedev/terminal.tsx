@@ -9,7 +9,7 @@ export const Route = createFileRoute("/gamedev/terminal")({
 function RouteTerminal() {
   return (
     <>
-      <Header id="header-ue-terminal" pageTitle="LEVEL DESIGN //" detached=" Terminal" />
+      <Header id="header-ue-terminal" pageTitle="LEVEL DESIGN //" detached="Terminal" />
       <main>
         <section>
           <h2>Terminal</h2>

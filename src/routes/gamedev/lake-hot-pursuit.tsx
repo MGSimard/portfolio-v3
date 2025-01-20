@@ -9,7 +9,7 @@ export const Route = createFileRoute("/gamedev/lake-hot-pursuit")({
 function RouteLakeHotPursuit() {
   return (
     <>
-      <Header id="header-halo-lake-hot-pursuit" pageTitle="LEVEL DESIGN //" detached=" LAKE HOT PURSUIT" />
+      <Header id="header-halo-lake-hot-pursuit" pageTitle="LEVEL DESIGN //" detached="LAKE HOT PURSUIT" />
       <main>
         <section>
           <h2>LAKE HOT PURSUIT</h2>

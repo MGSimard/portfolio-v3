@@ -9,7 +9,7 @@ export const Route = createFileRoute("/gamedev/deathrun")({
 function RouteDeathrun() {
   return (
     <>
-      <Header id="header-halo-deathrun" pageTitle="LEVEL DESIGN //" detached=" DEATHRUN" />
+      <Header id="header-halo-deathrun" pageTitle="LEVEL DESIGN //" detached="DEATHRUN" />
       <main>
         <section>
           <h2>DEATHRUN</h2>

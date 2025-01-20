@@ -28,5 +28,6 @@
 - [ ] 404 & error pages
 - [ ] Overall performance pass, preloads, lazyloads etc.
 - [x] Lock first span in headers from wrapping (XXX //)
+- [x] Bring back space between // and map name
 
 </details>

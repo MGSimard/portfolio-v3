@@ -163,6 +163,9 @@ video {
 #header-halo-lake-hot-pursuit {
   background-image: url(/assets/gamedev/halo-infinite/lake-hot-pursuit/lake-hot-pursuit_1.webp);
 }
+#header-halo-overdose {
+  background-image: url(/assets/gamedev/halo-infinite/overdose/overdose_6.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
