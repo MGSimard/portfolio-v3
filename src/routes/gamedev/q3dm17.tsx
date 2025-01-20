@@ -14,7 +14,7 @@ function RouteQ3dm17() {
         <section>
           <h2>Q3DM17</h2>
           <div className="grid-1-2x">
-            <Gallery columnCount={1} imgSrcs={[""]} />
+            <Gallery columnCount={1} imgSrcs={["/assets/gamedev/roblox-studio/q3dm17/q3dm17_1.webp"]} />
             <div className="p-page-meta">
               <ul>
                 <li>
@@ -27,18 +27,29 @@ function RouteQ3dm17() {
                   <strong>Solo Project</strong>
                 </li>
               </ul>
-              <p></p>
+              <p>
+                Another remake I loved making a while back - as per most other projects which were never really intended
+                to appear in a portfolio it was made purely for fun. This was one of my first attempts at doing
+                primitive shape-based mapping on Roblox Studio. Experimenting with math calcs, union operations and
+                setting up texture coordinates using the original textures from Quake. I also learned a couple of plugin
+                toolsets to facilitate my time since Roblox Studio lacked vertex snapping features and the likes. As
+                stated everything apart from the teleporters are made of primitives, while the textures are ripped from
+                Quake.
+              </p>
             </div>
           </div>
         </section>
         <section>
-          <h2>Gameplay</h2>
-          <Gallery className="float-right" columnCount={1} imgSrcs={[]} />
-          <p></p>
-        </section>
-        <section>
           <h2>Gallery</h2>
-          <Gallery imgSrcs={[]} />
+          <Gallery
+            imgSrcs={[
+              "/assets/gamedev/roblox-studio/q3dm17/q3dm17_1.webp",
+              "/assets/gamedev/roblox-studio/q3dm17/q3dm17_2.webp",
+              "/assets/gamedev/roblox-studio/q3dm17/q3dm17_3.webp",
+              "/assets/gamedev/roblox-studio/q3dm17/q3dm17_4.webp",
+              "/assets/gamedev/roblox-studio/q3dm17/q3dm17_5.webp",
+            ]}
+          />
         </section>
       </main>
     </>

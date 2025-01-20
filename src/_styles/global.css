@@ -187,6 +187,9 @@ video {
 #header-rs-mp_shop {
   background-image: url(/assets/gamedev/roblox-studio/mp_shop/mp_shop_2.webp);
 }
+#header-rs-q3dm17 {
+  background-image: url(/assets/gamedev/roblox-studio/q3dm17/q3dm17_3.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
