@@ -7,11 +7,11 @@ export const Route = createFileRoute("/")({
 
 function RouteIndex() {
   const socials = [
-    { linkTo: "https://github.com/MGSimard/", icon: <IconGitHub /> },
-    { linkTo: "https://x.com/MGSimard/", icon: <IconX /> },
-    { linkTo: "https://www.linkedin.com/in/mgsimard/", icon: <IconLinkedIn /> },
-    { linkTo: "https://www.freecodecamp.org/MGSimard/", icon: <IconFCC /> },
-    { linkTo: "https://www.frontendmentor.io/profile/MGSimard", icon: <IconFEM /> },
+    { linkTo: "https://github.com/MGSimard/", icon: <IconGitHub />, label: "GitHub" },
+    { linkTo: "https://x.com/MGSimard/", icon: <IconX />, label: "X/Twitter" },
+    { linkTo: "https://www.linkedin.com/in/mgsimard/", icon: <IconLinkedIn />, label: "LinkedIn" },
+    { linkTo: "https://www.freecodecamp.org/MGSimard/", icon: <IconFCC />, label: "freeCodeCamp" },
+    { linkTo: "https://www.frontendmentor.io/profile/MGSimard", icon: <IconFEM />, label: "Frontend Mentor" },
   ];
 
   return (
@@ -21,7 +21,7 @@ function RouteIndex() {
         <ul id="hero-socials">
           {socials.map((social) => (
             <li key={social.linkTo}>
-              <a href={social.linkTo} target="_blank">
+              <a href={social.linkTo} target="_blank" aria-label={social.label}>
                 {social.icon}
               </a>
             </li>
