@@ -33,5 +33,6 @@
 - [ ] Redo all thumbnails (except tu-misc & roblox section) through GIMP instead of conversion tool
 - [ ] Consider srcset for gallery thumbnails, 512x228 looks low qual on single clickable galleries
 - [ ] Preload the header divider picture
+- [ ] Fallback fonts to help while loading fonts
 
 </details>

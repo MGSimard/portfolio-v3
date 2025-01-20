@@ -118,6 +118,7 @@ button {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  outline: none;
 }
 button svg {
   height: 1em;
@@ -445,6 +446,7 @@ nav {
 /**/
 /* GALLERY & LIGHTBOX */
 .gallery img {
+  aspect-ratio: 16/9;
   cursor: pointer;
   border-radius: 0.6rem;
 }
