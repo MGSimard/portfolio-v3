@@ -76,19 +76,17 @@ export function Nav() {
       </div>
       <div id="bio">
         <div id="badges">
-          <Badge icon={<IconHTML />} text="HTML" />
+          <Badge icon={<IconHTML />} text="HTML5" />
           <Badge icon={<IconCSS />} text="CSS" />
-          <Badge icon={<IconJS />} text="JS" />
-          <Badge icon={<IconTS />} text="TS" />
+          <Badge icon={<IconJS />} text="JavaScript" />
+          <Badge icon={<IconTS />} text="TypeScript" />
           <Badge icon={<IconPostgreSQL />} text="PostgreSQL" />
           <Badge icon={<IconReact />} text="React 19" />
           <Badge icon={<IconNextJs />} text="Next.js" />
           <Badge icon={<IconWordpress />} text="Wordpress" />
           <Badge icon={<IconBootstrap />} text="Bootstrap" />
         </div>
-        <p>
-          Tech Stack: HTML5/CSS3/JS(ES6+), TypeScript, React 19, Next.js 15, Bootstrap, Wordpress, Divi, PostgreSQL.
-        </p>
+        <p>Tech Stack: HTML5/CSS/JS, TypeScript, React 19, Next.js 15, Bootstrap, Wordpress, Divi, PostgreSQL.</p>
         <p>Worked professionally in Freelance QA, UI/UX and Usability Testing for web apps & video games.</p>
         <p>
           Level Designer & Environmental Artist primarily through level editors — conventionally referred to as a
