@@ -125,6 +125,9 @@ button svg {
 ul {
   list-style: none;
 }
+video {
+  aspect-ratio: 16/9;
+}
 /**/
 /* HELPERS */
 .link {
@@ -154,6 +157,12 @@ ul {
 #header-ue-terminal {
   background-image: url(/assets/gamedev/unreal-engine/terminal/terminal_2.webp);
 }
+#header-halo-deathrun {
+  background-image: url(/assets/gamedev/halo-infinite/deathrun/deathrun_1.webp);
+}
+#header-halo-lake-hot-pursuit {
+  background-image: url(/assets/gamedev/halo-infinite/lake-hot-pursuit/lake-hot-pursuit_1.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
@@ -164,10 +173,15 @@ ul {
   padding: 0 0.1em;
   color: var(--clrHeading);
   background: var(--clrPrimary);
+  white-space: nowrap;
 }
-/* .blink-thing {
-  animation: blink 1s steps(1, start) infinite;
-} TODO: Idk if I want this animated */
+.detached {
+  display: inline-block;
+  white-space: nowrap;
+}
+.caret {
+  white-space: nowrap;
+}
 @keyframes blink {
   0% {
     opacity: 1;

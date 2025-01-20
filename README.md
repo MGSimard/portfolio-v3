@@ -27,5 +27,6 @@
 - [ ] New webdev header image
 - [ ] 404 & error pages
 - [ ] Overall performance pass, preloads, lazyloads etc.
+- [x] Lock first span in headers from wrapping (XXX //)
 
 </details>
