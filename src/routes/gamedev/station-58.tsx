@@ -45,26 +45,25 @@ function RouteStation58() {
         </section>
         <section>
           <h2>Gameplay</h2>
-          <div>
-            <Gallery
-              className="float-right"
-              columnCount={1}
-              imgSrcs={["/assets/gamedev/tower-unite/station-58/station-58_15.webp"]}
-            />
-            <p>
-              The puzzle mechanics presented within the level are fairly simple. I still went out of my way to learn
-              about a couple of concepts regarding escape rooms, one of the most important being the idea of &apos;Lock
-              before key&apos;. That is to say, you should present the problem to your player prior to giving them the
-              tools to solve said problem. Otherwise if you give a key before the lock, the player will attempt to use
-              the key on every lock, rather than depend on problem-solving skills. This also entertains the idea of a
-              &apos;Eureka&apos; moment similarly to what you would find in a Metroidvania, where the player suddenly
-              thinks &apos;Oh, I can use this new tool for that one thing earlier!&apos; after acquiring said tool.
-            </p>
-            <p>
-              The mechanics will be explained further within each section below. Do keep in mind that this very much
-              still is a work-in-progress.
-            </p>
-          </div>
+
+          <Gallery
+            className="float-right"
+            columnCount={1}
+            imgSrcs={["/assets/gamedev/tower-unite/station-58/station-58_15.webp"]}
+          />
+          <p>
+            The puzzle mechanics presented within the level are fairly simple. I still went out of my way to learn about
+            a couple of concepts regarding escape rooms, one of the most important being the idea of &apos;Lock before
+            key&apos;. That is to say, you should present the problem to your player prior to giving them the tools to
+            solve said problem. Otherwise if you give a key before the lock, the player will attempt to use the key on
+            every lock, rather than depend on problem-solving skills. This also entertains the idea of a
+            &apos;Eureka&apos; moment similarly to what you would find in a Metroidvania, where the player suddenly
+            thinks &apos;Oh, I can use this new tool for that one thing earlier!&apos; after acquiring said tool.
+          </p>
+          <p>
+            The mechanics will be explained further within each section below. Do keep in mind that this very much still
+            is a work-in-progress.
+          </p>
         </section>
         <section>
           <h2>Section 1: Story Setting</h2>

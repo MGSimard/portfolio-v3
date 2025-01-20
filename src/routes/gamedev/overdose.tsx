@@ -14,7 +14,7 @@ function RouteOverdose() {
         <section>
           <h2>Overdose</h2>
           <div className="grid-1-2x">
-            <img src="/assets/gamedev/halo-infinite/overdose/overdose_1.webp" alt="IMG" />
+            <Gallery columnCount={1} imgSrcs={["/assets/gamedev/halo-infinite/overdose/overdose_1.webp"]} />
             <div className="p-page-meta">
               <ul>
                 <li>
@@ -47,27 +47,30 @@ function RouteOverdose() {
         </section>
         <section>
           <h2>Gameplay</h2>
-          <div>
-            <img src="/assets/gamedev/halo-infinite/overdose/overdose_5.webp" alt="IMG" className="float-right" />
-            <p>
-              Supported by the scripts shown in in the scripting section, the basis of this map + game mode combo is for
-              Survivors to outlive the infected. They can accomplish this objective either by surviving until the
-              round&apos;s end, or by exterminating all of the infected. The infected are chosen at random at the start
-              of every round, and those Alpha infected eventually turn after a short grace period. Unlike Vanilla Halo
-              infection where infection forces a respawn, I&apos;ve scripted a system which dynamically infects players
-              where they stand to simulate Combat Arms&apos; Quarantine mode. This instills paranoia and lack of trust
-              in each player during pre-round, while also groups to split evenly throughout the map until the infected
-              are turned.
-            </p>
-            <p>
-              The map contains defensible areas, several hiding spots and obstacles which the survivors can utilize in
-              order to get away from the infected, or even set up traps. Once there is 70 seconds left to the round, a
-              10 second alert rings which then leads to saferooms unlocking. If survivors can manage to reach those
-              rooms, they can be locked from within to aid in surviving the last minute of the round. If enough infected
-              are still standing, fortifications can be broken through with relative ease - so it&apos;s a decent idea
-              to ensure that you have enough explosives saved for them.
-            </p>
-          </div>
+
+          <Gallery
+            className="float-right"
+            columnCount={1}
+            imgSrcs={["/assets/gamedev/halo-infinite/overdose/overdose_5.webp"]}
+          />
+          <p>
+            Supported by the scripts shown in in the scripting section, the basis of this map + game mode combo is for
+            Survivors to outlive the infected. They can accomplish this objective either by surviving until the
+            round&apos;s end, or by exterminating all of the infected. The infected are chosen at random at the start of
+            every round, and those Alpha infected eventually turn after a short grace period. Unlike Vanilla Halo
+            infection where infection forces a respawn, I&apos;ve scripted a system which dynamically infects players
+            where they stand to simulate Combat Arms&apos; Quarantine mode. This instills paranoia and lack of trust in
+            each player during pre-round, while also groups to split evenly throughout the map until the infected are
+            turned.
+          </p>
+          <p>
+            The map contains defensible areas, several hiding spots and obstacles which the survivors can utilize in
+            order to get away from the infected, or even set up traps. Once there is 70 seconds left to the round, a 10
+            second alert rings which then leads to saferooms unlocking. If survivors can manage to reach those rooms,
+            they can be locked from within to aid in surviving the last minute of the round. If enough infected are
+            still standing, fortifications can be broken through with relative ease - so it&apos;s a decent idea to
+            ensure that you have enough explosives saved for them.
+          </p>
         </section>
         <section>
           <h2>Gallery</h2>

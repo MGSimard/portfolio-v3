@@ -16,7 +16,7 @@
 - [ ] Responsive Nav (Side drawer)
 - [ ] Responsive grids
 - [x] Lightbox system (single & galleries)
-- [ ] Make gallery component take in an amount of columns (1, 6) to support single image lightboxing.
+- [x] Make gallery component take in an amount of columns (1, 6) to support single image lightboxing.
 - [ ] Make lightbox arrows & X smaller on mobile
 - [ ] Metadata & Icons
 - [ ] Buy Domain Name

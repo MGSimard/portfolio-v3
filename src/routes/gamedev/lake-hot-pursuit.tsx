@@ -14,7 +14,10 @@ function RouteLakeHotPursuit() {
         <section>
           <h2>LAKE HOT PURSUIT</h2>
           <div className="grid-1-2x">
-            <img src="/assets/gamedev/halo-infinite/lake-hot-pursuit/lake-hot-pursuit_1.webp" alt="IMG" />
+            <Gallery
+              columnCount={1}
+              imgSrcs={["/assets/gamedev/halo-infinite/lake-hot-pursuit/lake-hot-pursuit_1.webp"]}
+            />
             <div className="p-page-meta">
               <ul>
                 <li>
@@ -50,31 +53,29 @@ function RouteLakeHotPursuit() {
         </section>
         <section>
           <h2>Gameplay</h2>
-          <div>
-            <img
-              src="/assets/gamedev/halo-infinite/lake-hot-pursuit/lake-hot-pursuit_2.webp"
-              alt="IMG"
-              className="float-right"
-            />
-            <p>
-              The objective is for cops to chase, and ultimately catch, robbers in order to arrest them. Doing so can be
-              accomplished by either running them off the road into the lake, boxing them in and hijacking them to
-              arrest them, or leaving them stranded to the 10 second death timer. Robbers who are arrested change sides
-              - otherwise must survive for a set amount of time.
-            </p>
-            <p>
-              The main differing factor between what I would consider to be the most feature-complete Hot Pursuit mode
-              ever made for Halo and its predecessors, is that it specifically goes out of its way to limit gameplay to
-              vehicles only while also giving a little bit of space for on-foot transitions between vehicle grabs. Past
-              variants also strictly rely on pushing robbers off the road, whereas my version also allows cops to
-              directly interact with the robbers by pulling them out of their vehicles and arresting them manually.
-            </p>
-            <p>
-              I ensured advantages on both sides depending on which part of the terrain they drive on, whether it be the
-              tight spaces favouring the robbers&apos; mongooses or the cops&apos; superior top speed on straight lines.
-              The map has multiple intersecting sections which reward skilled navigation.
-            </p>
-          </div>
+          <Gallery
+            className="float-right"
+            columnCount={1}
+            imgSrcs={["/assets/gamedev/halo-infinite/lake-hot-pursuit/lake-hot-pursuit_2.webp"]}
+          />
+          <p>
+            The objective is for cops to chase, and ultimately catch, robbers in order to arrest them. Doing so can be
+            accomplished by either running them off the road into the lake, boxing them in and hijacking them to arrest
+            them, or leaving them stranded to the 10 second death timer. Robbers who are arrested change sides -
+            otherwise must survive for a set amount of time.
+          </p>
+          <p>
+            The main differing factor between what I would consider to be the most feature-complete Hot Pursuit mode
+            ever made for Halo and its predecessors, is that it specifically goes out of its way to limit gameplay to
+            vehicles only while also giving a little bit of space for on-foot transitions between vehicle grabs. Past
+            variants also strictly rely on pushing robbers off the road, whereas my version also allows cops to directly
+            interact with the robbers by pulling them out of their vehicles and arresting them manually.
+          </p>
+          <p>
+            I ensured advantages on both sides depending on which part of the terrain they drive on, whether it be the
+            tight spaces favouring the robbers&apos; mongooses or the cops&apos; superior top speed on straight lines.
+            The map has multiple intersecting sections which reward skilled navigation.
+          </p>
         </section>
         <section>
           <h2>Gallery</h2>

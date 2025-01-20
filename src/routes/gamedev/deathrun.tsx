@@ -14,7 +14,7 @@ function RouteDeathrun() {
         <section>
           <h2>DEATHRUN</h2>
           <div className="grid-1-2x">
-            <img src="/assets/gamedev/halo-infinite/deathrun/deathrun_1.webp" alt="IMG" />
+            <Gallery columnCount={1} imgSrcs={["/assets/gamedev/halo-infinite/deathrun/deathrun_1.webp"]} />
             <div className="p-page-meta">
               <ul>
                 <li>
@@ -50,30 +50,28 @@ function RouteDeathrun() {
         </section>
         <section>
           <h2>Gameplay</h2>
-          <div>
-            <video className="float-right" controls>
-              <source
-                src="https://xqh6wbme74.ufs.sh/f/8IytGibVOEvA43WAHXg2uP5yxM8o07VeIgUWatK1wNmBRiz6"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-            <p>
-              At this point, the map is roughly 70% done. All traps and their core functions have been finished along
-              with the required scripting. Lighting and environmental art is nearly halfway there -- and ending sequence
-              has yet to be implemented
-            </p>
-            <p>
-              Runners would need to pass through every trap until they eventually reach the end. Upon reaching the end,
-              the winning player(s) would either get to kill the trap master(s) or choose a some form of a duel
-              minigame, as sometimes seen in Gmod deathrun maps.
-            </p>
-            <p>
-              The environment is based on a mix of forerunner and banished architecture embedded within a mountain, set
-              underground. The second half of the video is very dark, as lighting work hadn&apos;t been started for that
-              section yet.
-            </p>
-          </div>
+          <video className="float-right" controls>
+            <source
+              src="https://xqh6wbme74.ufs.sh/f/8IytGibVOEvA43WAHXg2uP5yxM8o07VeIgUWatK1wNmBRiz6"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+          <p>
+            At this point, the map is roughly 70% done. All traps and their core functions have been finished along with
+            the required scripting. Lighting and environmental art is nearly halfway there -- and ending sequence has
+            yet to be implemented
+          </p>
+          <p>
+            Runners would need to pass through every trap until they eventually reach the end. Upon reaching the end,
+            the winning player(s) would either get to kill the trap master(s) or choose a some form of a duel minigame,
+            as sometimes seen in Gmod deathrun maps.
+          </p>
+          <p>
+            The environment is based on a mix of forerunner and banished architecture embedded within a mountain, set
+            underground. The second half of the video is very dark, as lighting work hadn&apos;t been started for that
+            section yet.
+          </p>
         </section>
         <section>
           <h2>Gallery</h2>

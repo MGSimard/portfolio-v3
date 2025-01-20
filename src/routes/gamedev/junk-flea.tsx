@@ -15,7 +15,7 @@ function RouteJunkFlea() {
         <section>
           <h2>Junk Flea</h2>
           <div className="grid-1-2x">
-            <img src="/assets/gamedev/halo-infinite/junk-flea/junk-flea_1.webp" alt="IMG" />
+            <Gallery columnCount={1} imgSrcs={["/assets/gamedev/halo-infinite/junk-flea/junk-flea_1.webp"]} />
             <div className="p-page-meta">
               <ul>
                 <li>
@@ -51,25 +51,27 @@ function RouteJunkFlea() {
         </section>
         <section>
           <h2>Gameplay</h2>
-          <div>
-            <img src="/assets/gamedev/halo-infinite/junk-flea/junk-flea_7.webp" alt="IMG" className="float-right" />
-            <p>
-              Junk Flea&apos;s primary game modes are standard types of Free for All & Team Deathmatch. Each team spawns
-              within their own buildings at the beginning, and then eventually follows a dynamic spawn system across the
-              map depending on threat proximity during the match. A night version was planned specifically for
-              Quarantine (Infection) however due to a lack of specific nodes within Forge&apos;s script system, I had
-              decided to put the night version on hold.
-            </p>
-            <p>
-              With the introduction of my Gun Game game mode/scripts alongside the map, an alternative version
-              supporting it was also released. It follows the standard Gun Game ruleset; You gain a level upon killing
-              opponents with your intended weapon and lose a level through being melee&apos;d or self-inflicted death.
-              Ammo can be replenished by killing an opponent with melee. The script system allows anyone to modify their
-              own version in Forge simply by modifying the weapon list. Since the script is fully data-driven, score and
-              all other settings automatically adjust to fit. Once a player cycles through all available weapons, they
-              win the round.
-            </p>
-          </div>
+          <Gallery
+            className="float-right"
+            columnCount={1}
+            imgSrcs={["/assets/gamedev/halo-infinite/junk-flea/junk-flea_7.webp"]}
+          />
+          <p>
+            Junk Flea&apos;s primary game modes are standard types of Free for All & Team Deathmatch. Each team spawns
+            within their own buildings at the beginning, and then eventually follows a dynamic spawn system across the
+            map depending on threat proximity during the match. A night version was planned specifically for Quarantine
+            (Infection) however due to a lack of specific nodes within Forge&apos;s script system, I had decided to put
+            the night version on hold.
+          </p>
+          <p>
+            With the introduction of my Gun Game game mode/scripts alongside the map, an alternative version supporting
+            it was also released. It follows the standard Gun Game ruleset; You gain a level upon killing opponents with
+            your intended weapon and lose a level through being melee&apos;d or self-inflicted death. Ammo can be
+            replenished by killing an opponent with melee. The script system allows anyone to modify their own version
+            in Forge simply by modifying the weapon list. Since the script is fully data-driven, score and all other
+            settings automatically adjust to fit. Once a player cycles through all available weapons, they win the
+            round.
+          </p>
         </section>
         <section>
           <h2>Gallery</h2>
