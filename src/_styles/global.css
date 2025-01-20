@@ -178,6 +178,9 @@ video {
 #header-tu-quindecim {
   background-image: url(/assets/gamedev/tower-unite/quindecim/quindecim_9.webp);
 }
+#header-tu-exploded-cinema {
+  background-image: url(/assets/gamedev/tower-unite/exploded-cinema/exploded-cinema_10.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);

@@ -21,6 +21,7 @@ import { Route as GamedevOverdoseImport } from './routes/gamedev/overdose'
 import { Route as GamedevLumbridgeCastleImport } from './routes/gamedev/lumbridge-castle'
 import { Route as GamedevLakeHotPursuitImport } from './routes/gamedev/lake-hot-pursuit'
 import { Route as GamedevJunkFleaImport } from './routes/gamedev/junk-flea'
+import { Route as GamedevExplodedCinemaImport } from './routes/gamedev/exploded-cinema'
 import { Route as GamedevDeathrunImport } from './routes/gamedev/deathrun'
 
 // Create/Update Routes
@@ -85,6 +86,12 @@ const GamedevJunkFleaRoute = GamedevJunkFleaImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
+const GamedevExplodedCinemaRoute = GamedevExplodedCinemaImport.update({
+  id: '/gamedev/exploded-cinema',
+  path: '/gamedev/exploded-cinema',
+  getParentRoute: () => rootRoute,
+} as any)
+
 const GamedevDeathrunRoute = GamedevDeathrunImport.update({
   id: '/gamedev/deathrun',
   path: '/gamedev/deathrun',
@@ -114,6 +121,13 @@ declare module '@tanstack/react-router' {
       path: '/gamedev/deathrun'
       fullPath: '/gamedev/deathrun'
       preLoaderRoute: typeof GamedevDeathrunImport
+      parentRoute: typeof rootRoute
+    }
+    '/gamedev/exploded-cinema': {
+      id: '/gamedev/exploded-cinema'
+      path: '/gamedev/exploded-cinema'
+      fullPath: '/gamedev/exploded-cinema'
+      preLoaderRoute: typeof GamedevExplodedCinemaImport
       parentRoute: typeof rootRoute
     }
     '/gamedev/junk-flea': {
@@ -181,6 +195,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/webdev': typeof WebdevRoute
   '/gamedev/deathrun': typeof GamedevDeathrunRoute
+  '/gamedev/exploded-cinema': typeof GamedevExplodedCinemaRoute
   '/gamedev/junk-flea': typeof GamedevJunkFleaRoute
   '/gamedev/lake-hot-pursuit': typeof GamedevLakeHotPursuitRoute
   '/gamedev/lumbridge-castle': typeof GamedevLumbridgeCastleRoute
@@ -195,6 +210,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/webdev': typeof WebdevRoute
   '/gamedev/deathrun': typeof GamedevDeathrunRoute
+  '/gamedev/exploded-cinema': typeof GamedevExplodedCinemaRoute
   '/gamedev/junk-flea': typeof GamedevJunkFleaRoute
   '/gamedev/lake-hot-pursuit': typeof GamedevLakeHotPursuitRoute
   '/gamedev/lumbridge-castle': typeof GamedevLumbridgeCastleRoute
@@ -210,6 +226,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/webdev': typeof WebdevRoute
   '/gamedev/deathrun': typeof GamedevDeathrunRoute
+  '/gamedev/exploded-cinema': typeof GamedevExplodedCinemaRoute
   '/gamedev/junk-flea': typeof GamedevJunkFleaRoute
   '/gamedev/lake-hot-pursuit': typeof GamedevLakeHotPursuitRoute
   '/gamedev/lumbridge-castle': typeof GamedevLumbridgeCastleRoute
@@ -226,6 +243,7 @@ export interface FileRouteTypes {
     | '/'
     | '/webdev'
     | '/gamedev/deathrun'
+    | '/gamedev/exploded-cinema'
     | '/gamedev/junk-flea'
     | '/gamedev/lake-hot-pursuit'
     | '/gamedev/lumbridge-castle'
@@ -239,6 +257,7 @@ export interface FileRouteTypes {
     | '/'
     | '/webdev'
     | '/gamedev/deathrun'
+    | '/gamedev/exploded-cinema'
     | '/gamedev/junk-flea'
     | '/gamedev/lake-hot-pursuit'
     | '/gamedev/lumbridge-castle'
@@ -252,6 +271,7 @@ export interface FileRouteTypes {
     | '/'
     | '/webdev'
     | '/gamedev/deathrun'
+    | '/gamedev/exploded-cinema'
     | '/gamedev/junk-flea'
     | '/gamedev/lake-hot-pursuit'
     | '/gamedev/lumbridge-castle'
@@ -267,6 +287,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   WebdevRoute: typeof WebdevRoute
   GamedevDeathrunRoute: typeof GamedevDeathrunRoute
+  GamedevExplodedCinemaRoute: typeof GamedevExplodedCinemaRoute
   GamedevJunkFleaRoute: typeof GamedevJunkFleaRoute
   GamedevLakeHotPursuitRoute: typeof GamedevLakeHotPursuitRoute
   GamedevLumbridgeCastleRoute: typeof GamedevLumbridgeCastleRoute
@@ -281,6 +302,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   WebdevRoute: WebdevRoute,
   GamedevDeathrunRoute: GamedevDeathrunRoute,
+  GamedevExplodedCinemaRoute: GamedevExplodedCinemaRoute,
   GamedevJunkFleaRoute: GamedevJunkFleaRoute,
   GamedevLakeHotPursuitRoute: GamedevLakeHotPursuitRoute,
   GamedevLumbridgeCastleRoute: GamedevLumbridgeCastleRoute,
@@ -304,6 +326,7 @@ export const routeTree = rootRoute
         "/",
         "/webdev",
         "/gamedev/deathrun",
+        "/gamedev/exploded-cinema",
         "/gamedev/junk-flea",
         "/gamedev/lake-hot-pursuit",
         "/gamedev/lumbridge-castle",
@@ -322,6 +345,9 @@ export const routeTree = rootRoute
     },
     "/gamedev/deathrun": {
       "filePath": "gamedev/deathrun.tsx"
+    },
+    "/gamedev/exploded-cinema": {
+      "filePath": "gamedev/exploded-cinema.tsx"
     },
     "/gamedev/junk-flea": {
       "filePath": "gamedev/junk-flea.tsx"
