@@ -18,6 +18,7 @@ import { Route as GamedevTuMiscImport } from './routes/gamedev/tu-misc'
 import { Route as GamedevTerminalImport } from './routes/gamedev/terminal'
 import { Route as GamedevStation58Import } from './routes/gamedev/station-58'
 import { Route as GamedevQuindecimImport } from './routes/gamedev/quindecim'
+import { Route as GamedevQ3dm17Import } from './routes/gamedev/q3dm17'
 import { Route as GamedevOverdoseImport } from './routes/gamedev/overdose'
 import { Route as GamedevMpshopImport } from './routes/gamedev/mp_shop'
 import { Route as GamedevLumbridgeCastleImport } from './routes/gamedev/lumbridge-castle'
@@ -67,6 +68,12 @@ const GamedevStation58Route = GamedevStation58Import.update({
 const GamedevQuindecimRoute = GamedevQuindecimImport.update({
   id: '/gamedev/quindecim',
   path: '/gamedev/quindecim',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const GamedevQ3dm17Route = GamedevQ3dm17Import.update({
+  id: '/gamedev/q3dm17',
+  path: '/gamedev/q3dm17',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -179,6 +186,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GamedevOverdoseImport
       parentRoute: typeof rootRoute
     }
+    '/gamedev/q3dm17': {
+      id: '/gamedev/q3dm17'
+      path: '/gamedev/q3dm17'
+      fullPath: '/gamedev/q3dm17'
+      preLoaderRoute: typeof GamedevQ3dm17Import
+      parentRoute: typeof rootRoute
+    }
     '/gamedev/quindecim': {
       id: '/gamedev/quindecim'
       path: '/gamedev/quindecim'
@@ -229,6 +243,7 @@ export interface FileRoutesByFullPath {
   '/gamedev/lumbridge-castle': typeof GamedevLumbridgeCastleRoute
   '/gamedev/mp_shop': typeof GamedevMpshopRoute
   '/gamedev/overdose': typeof GamedevOverdoseRoute
+  '/gamedev/q3dm17': typeof GamedevQ3dm17Route
   '/gamedev/quindecim': typeof GamedevQuindecimRoute
   '/gamedev/station-58': typeof GamedevStation58Route
   '/gamedev/terminal': typeof GamedevTerminalRoute
@@ -246,6 +261,7 @@ export interface FileRoutesByTo {
   '/gamedev/lumbridge-castle': typeof GamedevLumbridgeCastleRoute
   '/gamedev/mp_shop': typeof GamedevMpshopRoute
   '/gamedev/overdose': typeof GamedevOverdoseRoute
+  '/gamedev/q3dm17': typeof GamedevQ3dm17Route
   '/gamedev/quindecim': typeof GamedevQuindecimRoute
   '/gamedev/station-58': typeof GamedevStation58Route
   '/gamedev/terminal': typeof GamedevTerminalRoute
@@ -264,6 +280,7 @@ export interface FileRoutesById {
   '/gamedev/lumbridge-castle': typeof GamedevLumbridgeCastleRoute
   '/gamedev/mp_shop': typeof GamedevMpshopRoute
   '/gamedev/overdose': typeof GamedevOverdoseRoute
+  '/gamedev/q3dm17': typeof GamedevQ3dm17Route
   '/gamedev/quindecim': typeof GamedevQuindecimRoute
   '/gamedev/station-58': typeof GamedevStation58Route
   '/gamedev/terminal': typeof GamedevTerminalRoute
@@ -283,6 +300,7 @@ export interface FileRouteTypes {
     | '/gamedev/lumbridge-castle'
     | '/gamedev/mp_shop'
     | '/gamedev/overdose'
+    | '/gamedev/q3dm17'
     | '/gamedev/quindecim'
     | '/gamedev/station-58'
     | '/gamedev/terminal'
@@ -299,6 +317,7 @@ export interface FileRouteTypes {
     | '/gamedev/lumbridge-castle'
     | '/gamedev/mp_shop'
     | '/gamedev/overdose'
+    | '/gamedev/q3dm17'
     | '/gamedev/quindecim'
     | '/gamedev/station-58'
     | '/gamedev/terminal'
@@ -315,6 +334,7 @@ export interface FileRouteTypes {
     | '/gamedev/lumbridge-castle'
     | '/gamedev/mp_shop'
     | '/gamedev/overdose'
+    | '/gamedev/q3dm17'
     | '/gamedev/quindecim'
     | '/gamedev/station-58'
     | '/gamedev/terminal'
@@ -333,6 +353,7 @@ export interface RootRouteChildren {
   GamedevLumbridgeCastleRoute: typeof GamedevLumbridgeCastleRoute
   GamedevMpshopRoute: typeof GamedevMpshopRoute
   GamedevOverdoseRoute: typeof GamedevOverdoseRoute
+  GamedevQ3dm17Route: typeof GamedevQ3dm17Route
   GamedevQuindecimRoute: typeof GamedevQuindecimRoute
   GamedevStation58Route: typeof GamedevStation58Route
   GamedevTerminalRoute: typeof GamedevTerminalRoute
@@ -350,6 +371,7 @@ const rootRouteChildren: RootRouteChildren = {
   GamedevLumbridgeCastleRoute: GamedevLumbridgeCastleRoute,
   GamedevMpshopRoute: GamedevMpshopRoute,
   GamedevOverdoseRoute: GamedevOverdoseRoute,
+  GamedevQ3dm17Route: GamedevQ3dm17Route,
   GamedevQuindecimRoute: GamedevQuindecimRoute,
   GamedevStation58Route: GamedevStation58Route,
   GamedevTerminalRoute: GamedevTerminalRoute,
@@ -376,6 +398,7 @@ export const routeTree = rootRoute
         "/gamedev/lumbridge-castle",
         "/gamedev/mp_shop",
         "/gamedev/overdose",
+        "/gamedev/q3dm17",
         "/gamedev/quindecim",
         "/gamedev/station-58",
         "/gamedev/terminal",
@@ -409,6 +432,9 @@ export const routeTree = rootRoute
     },
     "/gamedev/overdose": {
       "filePath": "gamedev/overdose.tsx"
+    },
+    "/gamedev/q3dm17": {
+      "filePath": "gamedev/q3dm17.tsx"
     },
     "/gamedev/quindecim": {
       "filePath": "gamedev/quindecim.tsx"

@@ -184,6 +184,9 @@ video {
 #header-tu-misc {
   background-image: url(/assets/gamedev/tower-unite/misc/art-gallery_2.webp);
 }
+#header-rs-mp_shop {
+  background-image: url(/assets/gamedev/roblox-studio/mp_shop/mp_shop_2.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
