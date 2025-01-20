@@ -486,7 +486,6 @@ nav {
   color: var(--clrText);
   background: none;
   opacity: 0.6;
-  outline: none;
   pointer-events: auto;
   transition: all 0.2s ease;
 }
@@ -515,7 +514,6 @@ nav {
   background: none;
   transition: all 0.2s ease;
   opacity: 0.6;
-  outline: none;
   z-index: 1;
 }
 .lightbox-close svg {
