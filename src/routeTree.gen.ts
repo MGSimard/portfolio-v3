@@ -15,6 +15,7 @@ import { Route as WebdevImport } from './routes/webdev'
 import { Route as IndexImport } from './routes/index'
 import { Route as GamedevIndexImport } from './routes/gamedev/index'
 import { Route as GamedevTuMiscImport } from './routes/gamedev/tu-misc'
+import { Route as GamedevThyKingdomComeImport } from './routes/gamedev/thy-kingdom-come'
 import { Route as GamedevTerminalImport } from './routes/gamedev/terminal'
 import { Route as GamedevStation58Import } from './routes/gamedev/station-58'
 import { Route as GamedevQuindecimImport } from './routes/gamedev/quindecim'
@@ -50,6 +51,12 @@ const GamedevIndexRoute = GamedevIndexImport.update({
 const GamedevTuMiscRoute = GamedevTuMiscImport.update({
   id: '/gamedev/tu-misc',
   path: '/gamedev/tu-misc',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const GamedevThyKingdomComeRoute = GamedevThyKingdomComeImport.update({
+  id: '/gamedev/thy-kingdom-come',
+  path: '/gamedev/thy-kingdom-come',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -214,6 +221,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GamedevTerminalImport
       parentRoute: typeof rootRoute
     }
+    '/gamedev/thy-kingdom-come': {
+      id: '/gamedev/thy-kingdom-come'
+      path: '/gamedev/thy-kingdom-come'
+      fullPath: '/gamedev/thy-kingdom-come'
+      preLoaderRoute: typeof GamedevThyKingdomComeImport
+      parentRoute: typeof rootRoute
+    }
     '/gamedev/tu-misc': {
       id: '/gamedev/tu-misc'
       path: '/gamedev/tu-misc'
@@ -247,6 +261,7 @@ export interface FileRoutesByFullPath {
   '/gamedev/quindecim': typeof GamedevQuindecimRoute
   '/gamedev/station-58': typeof GamedevStation58Route
   '/gamedev/terminal': typeof GamedevTerminalRoute
+  '/gamedev/thy-kingdom-come': typeof GamedevThyKingdomComeRoute
   '/gamedev/tu-misc': typeof GamedevTuMiscRoute
   '/gamedev': typeof GamedevIndexRoute
 }
@@ -265,6 +280,7 @@ export interface FileRoutesByTo {
   '/gamedev/quindecim': typeof GamedevQuindecimRoute
   '/gamedev/station-58': typeof GamedevStation58Route
   '/gamedev/terminal': typeof GamedevTerminalRoute
+  '/gamedev/thy-kingdom-come': typeof GamedevThyKingdomComeRoute
   '/gamedev/tu-misc': typeof GamedevTuMiscRoute
   '/gamedev': typeof GamedevIndexRoute
 }
@@ -284,6 +300,7 @@ export interface FileRoutesById {
   '/gamedev/quindecim': typeof GamedevQuindecimRoute
   '/gamedev/station-58': typeof GamedevStation58Route
   '/gamedev/terminal': typeof GamedevTerminalRoute
+  '/gamedev/thy-kingdom-come': typeof GamedevThyKingdomComeRoute
   '/gamedev/tu-misc': typeof GamedevTuMiscRoute
   '/gamedev/': typeof GamedevIndexRoute
 }
@@ -304,6 +321,7 @@ export interface FileRouteTypes {
     | '/gamedev/quindecim'
     | '/gamedev/station-58'
     | '/gamedev/terminal'
+    | '/gamedev/thy-kingdom-come'
     | '/gamedev/tu-misc'
     | '/gamedev'
   fileRoutesByTo: FileRoutesByTo
@@ -321,6 +339,7 @@ export interface FileRouteTypes {
     | '/gamedev/quindecim'
     | '/gamedev/station-58'
     | '/gamedev/terminal'
+    | '/gamedev/thy-kingdom-come'
     | '/gamedev/tu-misc'
     | '/gamedev'
   id:
@@ -338,6 +357,7 @@ export interface FileRouteTypes {
     | '/gamedev/quindecim'
     | '/gamedev/station-58'
     | '/gamedev/terminal'
+    | '/gamedev/thy-kingdom-come'
     | '/gamedev/tu-misc'
     | '/gamedev/'
   fileRoutesById: FileRoutesById
@@ -357,6 +377,7 @@ export interface RootRouteChildren {
   GamedevQuindecimRoute: typeof GamedevQuindecimRoute
   GamedevStation58Route: typeof GamedevStation58Route
   GamedevTerminalRoute: typeof GamedevTerminalRoute
+  GamedevThyKingdomComeRoute: typeof GamedevThyKingdomComeRoute
   GamedevTuMiscRoute: typeof GamedevTuMiscRoute
   GamedevIndexRoute: typeof GamedevIndexRoute
 }
@@ -375,6 +396,7 @@ const rootRouteChildren: RootRouteChildren = {
   GamedevQuindecimRoute: GamedevQuindecimRoute,
   GamedevStation58Route: GamedevStation58Route,
   GamedevTerminalRoute: GamedevTerminalRoute,
+  GamedevThyKingdomComeRoute: GamedevThyKingdomComeRoute,
   GamedevTuMiscRoute: GamedevTuMiscRoute,
   GamedevIndexRoute: GamedevIndexRoute,
 }
@@ -402,6 +424,7 @@ export const routeTree = rootRoute
         "/gamedev/quindecim",
         "/gamedev/station-58",
         "/gamedev/terminal",
+        "/gamedev/thy-kingdom-come",
         "/gamedev/tu-misc",
         "/gamedev/"
       ]
@@ -444,6 +467,9 @@ export const routeTree = rootRoute
     },
     "/gamedev/terminal": {
       "filePath": "gamedev/terminal.tsx"
+    },
+    "/gamedev/thy-kingdom-come": {
+      "filePath": "gamedev/thy-kingdom-come.tsx"
     },
     "/gamedev/tu-misc": {
       "filePath": "gamedev/tu-misc.tsx"
