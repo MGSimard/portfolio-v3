@@ -56,7 +56,7 @@ export function Nav() {
           <li>
             <Link to="/" className="link">
               <IconGlobe />
-              mgsimard.pages.dev
+              mgsimard.dev
             </Link>
           </li>
         </ul>
