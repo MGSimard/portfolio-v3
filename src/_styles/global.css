@@ -172,6 +172,9 @@ video {
 #header-tu-station-58 {
   background-image: url(/assets/gamedev/tower-unite/station-58/station-58_23.webp);
 }
+#header-tu-lumbridge-castle {
+  background-image: url(/assets/gamedev/tower-unite/lumbridge-castle/lumbridge-castle_3.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);

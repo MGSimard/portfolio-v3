@@ -24,10 +24,9 @@ function RouteStation58() {
                   <strong>Genre:</strong> Escape Room, Puzzle, Horror
                 </li>
                 <li>
-                  <strong>Solo Project</strong>
+                  <strong>Solo Project - In Progress</strong>
                 </li>
               </ul>
-              <p>Project On-Hold.</p>
               <p>
                 Station 58 is a puzzle/escape room level created in Tower Unite&apos;s condo editor. After a save file
                 corruption of an initial project with multiple puzzle games, I decided to build this escape room type
