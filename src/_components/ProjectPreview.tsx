@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { IconGitHub } from "./Icons";
 
 interface ProjectDataTypes {
@@ -22,10 +23,10 @@ export function ProjectPreview({ projectData, newtab }: { projectData: ProjectDa
           hsla(from var(--clrBg) h s l / 0.7) 100%
         ), url(${thumbnail})`,
       }}>
-      <a href={link} target={newtab ? "_blank" : "_self"} title={title} className="project-meta">
+      <Link to={link} target={newtab ? "_blank" : "_self"} title={title} className="project-meta">
         <span className="project-title">{title}</span>
         <span className="project-tags">{tags}</span>
-      </a>
+      </Link>
       {githubRepo && (
         <a href={githubRepo} target="_blank" className="project-github" title={`${title} GitHub Repo`}>
           <IconGitHub />

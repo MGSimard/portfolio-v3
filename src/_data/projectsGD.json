@@ -10,7 +10,7 @@
           "title": "Terminal (WIP)",
           "tags": "Unreal Engine, Blockout, Work in Progress",
           "thumbnail": "./assets/gd-thumbnails/thumb_terminal.webp",
-          "link": "./gamedev/terminal",
+          "link": "/gamedev/terminal",
           "githubRepo": ""
         }
       ]
@@ -22,28 +22,28 @@
           "title": "DEATHRUN (WIP)",
           "tags": "Halo Infinite Forge, Deathrun",
           "thumbnail": "./assets/gd-thumbnails/thumb_deathrun.webp",
-          "link": "./gamedev/deathrun",
+          "link": "/gamedev/deathrun",
           "githubRepo": ""
         },
         {
           "title": "Lake Hot Pursuit",
           "tags": "Halo Infinite Forge, Cops & Robbers",
           "thumbnail": "./assets/gd-thumbnails/thumb_lake-hot-pursuit.webp",
-          "link": "./gamedev/lake-hot-pursuit",
+          "link": "/gamedev/lake-hot-pursuit",
           "githubRepo": ""
         },
         {
           "title": "Overdose",
           "tags": "Halo Infinite Forge, Remake, Infection",
           "thumbnail": "./assets/gd-thumbnails/thumb_overdose.webp",
-          "link": "./gamedev/overdose",
+          "link": "/gamedev/overdose",
           "githubRepo": ""
         },
         {
           "title": "Junk Flea",
           "tags": "Halo Infinite Forge, Remake",
           "thumbnail": "./assets/gd-thumbnails/thumb_junk-flea.webp",
-          "link": "./gamedev/junk-flea",
+          "link": "/gamedev/junk-flea",
           "githubRepo": ""
         }
       ]
@@ -55,35 +55,35 @@
           "title": "Station 58",
           "tags": "Tower Unite, Escape Room, Puzzle, Horror",
           "thumbnail": "./assets/gd-thumbnails/thumb_station-58.webp",
-          "link": "./gamedev/station-58",
+          "link": "/gamedev/station-58",
           "githubRepo": ""
         },
         {
           "title": "Lumbridge Castle",
           "tags": "Tower Unite, Remake, Social",
           "thumbnail": "./assets/gd-thumbnails/thumb_lumbridge-castle.webp",
-          "link": "./gamedev/lumbridge-castle",
+          "link": "/gamedev/lumbridge-castle",
           "githubRepo": ""
         },
         {
           "title": "Quindecim",
           "tags": "Tower Unite, Remake, Social",
           "thumbnail": "./assets/gd-thumbnails/thumb_quindecim.webp",
-          "link": "./gamedev/quindecim",
+          "link": "/gamedev/quindecim",
           "githubRepo": ""
         },
         {
           "title": "Exploded Cinema",
           "tags": "Tower Unite, Social",
           "thumbnail": "./assets/gd-thumbnails/thumb_exploded-cinema.webp",
-          "link": "./gamedev/exploded-cinema",
+          "link": "/gamedev/exploded-cinema",
           "githubRepo": ""
         },
         {
           "title": "Misc",
           "tags": "Tower Unite, Other",
           "thumbnail": "./assets/gd-thumbnails/thumb_tu-misc.webp",
-          "link": "./gamedev/tu-misc",
+          "link": "/gamedev/tu-misc",
           "githubRepo": ""
         }
       ]
@@ -95,21 +95,21 @@
           "title": "mp_shop",
           "tags": "Roblox Studio, Remake",
           "thumbnail": "./assets/gd-thumbnails/thumb_mp_shop.webp",
-          "link": "./gamedev/mp_shop",
+          "link": "/gamedev/mp_shop",
           "githubRepo": ""
         },
         {
           "title": "Q3DM17",
           "tags": "Roblox Studio, Remake",
           "thumbnail": "./assets/gd-thumbnails/thumb_q3dm17.webp",
-          "link": "./gamedev/q3dm17",
+          "link": "/gamedev/q3dm17",
           "githubRepo": ""
         },
         {
           "title": "Thy Kingdom Come",
           "tags": "Roblox Studio, Remake",
           "thumbnail": "./assets/gd-thumbnails/thumb_thy-kingdom-come.webp",
-          "link": "./gamedev/thy-kingdom-come",
+          "link": "/gamedev/thy-kingdom-come",
           "githubRepo": ""
         }
       ]

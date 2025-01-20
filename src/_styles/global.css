@@ -103,6 +103,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  width: 100%;
 }
 button {
   display: flex;
@@ -252,6 +253,7 @@ video {
   letter-spacing: -0.08em;
   color: var(--clrDetail);
   transition: color ease 0.2s;
+  white-space: nowrap;
 }
 .view-all:hover {
   color: var(--clrPrimary);
@@ -637,6 +639,42 @@ section p:not(:last-child) {
   margin-bottom: 1em;
 }
 
+@media only screen and (max-width: 1440px) {
+  .grid-6x {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .grid-6x {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .grid-6x {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 968px) {
+  .grid-6x {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid-6x {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 592px) {
+  .grid-6x {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 375px) {
+  .grid-6x {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
 @media only screen and (max-width: 968px) {
   main {
     padding: 4rem var(--sitePadding);
@@ -660,5 +698,22 @@ section p:not(:last-child) {
   nav::backdrop {
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(0.5rem);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .grid-1-2x {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+@media only screen and (max-width: 592px) {
+  .float-left,
+  .float-right {
+    margin: 0;
+    width: 100%;
+    float: none;
+  }
+  .float-left:not(:last-child),
+  .float-right:not(:last-child) {
+    margin-bottom: 2rem;
   }
 }
