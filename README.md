@@ -13,6 +13,7 @@
 - [x] Webdev page
 - [x] Custom nav scrollbar
 - [x] Gamedev page
+- [x] Implement all gamedev articles
 - [ ] Responsive Nav (Side drawer)
 - [ ] Responsive grids
 - [x] Lightbox system (single & galleries)
