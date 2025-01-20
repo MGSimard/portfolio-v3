@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import {
+  IconClose,
   IconCode,
   IconFCC,
   IconFEM,
@@ -30,7 +31,11 @@ export function Nav() {
   ];
 
   return (
-    <nav>
+    <nav id="nav" popover="auto">
+      <button id="nav-close" type="button" popoverTarget="nav" popoverTargetAction="hide" aria-label="Close Navigation">
+        <IconClose />
+        <span className="sr-only">Close Navigation</span>
+      </button>
       <div id="author">
         <Link to="/" id="author-logo">
           <IconMGS />

@@ -14,7 +14,7 @@
 - [x] Custom nav scrollbar
 - [x] Gamedev page
 - [x] Implement all gamedev articles
-- [ ] Responsive Nav (Side drawer)
+- [x] Responsive Nav (Side drawer)
 - [ ] Responsive grids
 - [x] Lightbox system (single & galleries)
 - [x] Make gallery component take in an amount of columns (1, 6) to support single image lightboxing.
@@ -34,5 +34,9 @@
 - [ ] Consider srcset for gallery thumbnails, 512x228 looks low qual on single clickable galleries
 - [ ] Preload the header divider picture
 - [ ] Fallback fonts to help while loading fonts
+- [ ] .sr-only to complement aria labels on icon buttons and links (don't forget nav-trigger)
+- [ ] Decide if I want to hide nav trigger when nav is open (currently can tap enter again to close nav, feels good actually?)
+- [ ] Fix project links you absolute doofus you used a tags instead of Link component
+- [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
 
 </details>

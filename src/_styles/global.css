@@ -59,8 +59,8 @@ header {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none;
-  /* Re-enables ability to click on header to deselect selection elsewhere on page */
+  pointer-events: none; /* Re-enables ability to click on header to deselect selection elsewhere on page */
+  transition: padding 0.2s ease;
 }
 .header-divider {
   position: absolute;
@@ -78,6 +78,7 @@ main {
   gap: 4rem;
   max-width: var(--siteWidth);
   padding: 4rem var(--sitePadding) 4rem calc(var(--sidebarWidth) + var(--sitePadding));
+  transition: padding 0.2s ease;
 }
 /**/
 /* DEFAULTS */
@@ -118,7 +119,6 @@ button {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  outline: none;
 }
 button svg {
   height: 1em;
@@ -128,6 +128,13 @@ ul {
 }
 video {
   aspect-ratio: 16/9;
+}
+[popover] {
+  /* This practice of new APIs including dogshit arbitrary user-agent styles needs to fucking die */
+  /* I don't usually swear in my code but very honestly fuck right off */
+  color: inherit;
+  border: none;
+  height: auto;
 }
 /**/
 /* HELPERS */
@@ -212,6 +219,17 @@ video {
 }
 .caret {
   white-space: nowrap;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: none;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  overflow: hidden;
 }
 @keyframes blink {
   0% {
@@ -349,6 +367,53 @@ nav {
   scrollbar-width: thin;
   scrollbar-color: var(--clrScroll) var(--clrBgLight);
   z-index: 9999;
+  transition: transform 0.2s ease;
+}
+#nav-trigger {
+  top: 2rem;
+  left: 2rem;
+  position: fixed;
+  color: var(--clrText);
+  background: none;
+  z-index: 9900;
+  backdrop-filter: blur(1rem);
+  transition: background-color 0.2s ease;
+}
+#nav-trigger:hover,
+#nav-trigger:focus-visible {
+  background-color: var(--clrBg);
+}
+#nav-trigger svg {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+#nav-close {
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: var(--clrText);
+  background: none;
+  z-index: 1;
+  opacity: 0.6;
+  transition: opacity ease 0.2s;
+  /* TODO: REPLACE TEST COLORS, USE ICON, ADD .sr-only TO SPAN IN BUTTON */
+}
+#nav-close:hover,
+#nav-close:focus-visible {
+  opacity: 1;
+}
+#nav-close svg {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+#nav-trigger,
+#nav-close {
+  display: none;
 }
 #author {
   display: flex;
@@ -570,4 +635,30 @@ nav {
 }
 section p:not(:last-child) {
   margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 968px) {
+  main {
+    padding: 4rem var(--sitePadding);
+  }
+  header {
+    padding: 2rem var(--sitePadding);
+  }
+  /* Turn nav into mobile nav using Popover API */
+  #nav-trigger {
+    display: block;
+  }
+  nav:popover-open #nav-close {
+    display: block;
+  }
+  nav:not(:popover-open) {
+    transform: translateX(-100%);
+  }
+  nav:popover-open {
+    transform: translateX(0);
+  }
+  nav::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(0.5rem);
+  }
 }
