@@ -1,6 +1,8 @@
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
+import { NotFound } from "./_components/NotFound";
+import { Error } from "./_components/Error";
 import "./_styles/global.css";
 import "./_styles/fonts/fonts.css";
 
@@ -8,7 +10,11 @@ import "./_styles/fonts/fonts.css";
 import { routeTree } from "./routeTree.gen";
 
 // Create a new router instance
-const router = createRouter({ routeTree });
+const router = createRouter({
+  routeTree,
+  defaultNotFoundComponent: NotFound,
+  defaultErrorComponent: Error,
+});
 
 // Register the router instance for type safety
 declare module "@tanstack/react-router" {

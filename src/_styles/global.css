@@ -80,6 +80,11 @@ main {
   padding: 4rem var(--sitePadding) 4rem calc(var(--sidebarWidth) + var(--sitePadding));
   transition: padding 0.2s ease;
 }
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /**/
 /* DEFAULTS */
 h1,

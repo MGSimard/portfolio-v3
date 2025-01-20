@@ -23,6 +23,7 @@ function RouteIndex() {
             <li key={social.linkTo}>
               <a href={social.linkTo} target="_blank" aria-label={social.label}>
                 {social.icon}
+                <span className="sr-only">{social.label}</span>
               </a>
             </li>
           ))}
