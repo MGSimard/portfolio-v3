@@ -1,19 +1,29 @@
 import { Link } from "@tanstack/react-router";
 import {
+  IconBootstrap,
   IconClose,
   IconCode,
+  IconCSS,
   IconFCC,
   IconFEM,
   IconGitHub,
   IconGlobe,
   IconHome,
+  IconHTML,
+  IconJS,
   IconLinkedIn,
   IconMail,
   IconMGS,
+  IconNextJs,
   IconPin,
+  IconPostgreSQL,
   IconPuzzle,
+  IconReact,
+  IconTS,
+  IconWordpress,
   IconX,
 } from "./Icons";
+import { Badge } from "./Badge";
 
 export function Nav() {
   const links = [
@@ -34,7 +44,6 @@ export function Nav() {
     <nav id="nav" popover="auto">
       <button id="nav-close" type="button" popoverTarget="nav" popoverTargetAction="hide" aria-label="Close Navigation">
         <IconClose />
-        <span className="sr-only">Close Navigation</span>
       </button>
       <div id="author">
         <Link to="/" id="author-logo">
@@ -66,10 +75,19 @@ export function Nav() {
         </button>
       </div>
       <div id="bio">
+        <div id="badges">
+          <Badge icon={<IconHTML />} text="HTML" />
+          <Badge icon={<IconCSS />} text="CSS" />
+          <Badge icon={<IconJS />} text="JS" />
+          <Badge icon={<IconTS />} text="TS" />
+          <Badge icon={<IconPostgreSQL />} text="PostgreSQL" />
+          <Badge icon={<IconReact />} text="React 19" />
+          <Badge icon={<IconNextJs />} text="Next.js" />
+          <Badge icon={<IconWordpress />} text="Wordpress" />
+          <Badge icon={<IconBootstrap />} text="Bootstrap" />
+        </div>
         <p>
-          <strong>
-            Tech Stack: HTML5/CSS3/JS(ES6+), TypeScript, React 19, Next.js 15, Bootstrap, Wordpress, Divi, PostgreSQL.
-          </strong>
+          Tech Stack: HTML5/CSS3/JS(ES6+), TypeScript, React 19, Next.js 15, Bootstrap, Wordpress, Divi, PostgreSQL.
         </p>
         <p>Worked professionally in Freelance QA, UI/UX and Usability Testing for web apps & video games.</p>
         <p>
@@ -97,7 +115,6 @@ export function Nav() {
           <li key={social.linkTo}>
             <a href={social.linkTo} target="_blank" aria-label={social.label}>
               {social.icon}
-              <span className="sr-only">{social.label}</span>
             </a>
           </li>
         ))}

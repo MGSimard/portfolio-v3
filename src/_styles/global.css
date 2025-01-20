@@ -413,7 +413,6 @@ nav {
   z-index: 1;
   opacity: 0.6;
   transition: opacity ease 0.2s;
-  /* TODO: REPLACE TEST COLORS, USE ICON, ADD .sr-only TO SPAN IN BUTTON */
 }
 #nav-close:hover,
 #nav-close:focus-visible {
@@ -474,6 +473,24 @@ nav {
 }
 #bio p:not(:last-child) {
   margin-bottom: 1em;
+}
+#badges {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1em;
+}
+.tech-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+}
+.tech-badge svg {
+  height: 1em;
 }
 #nav-links {
   display: flex;
@@ -568,6 +585,7 @@ nav {
   opacity: 0.6;
   pointer-events: auto;
   transition: all 0.2s ease;
+  border-radius: 0;
 }
 .lightbox-arrows button:not(:disabled):hover,
 .lightbox-arrows button:not(:disabled):focus-visible {

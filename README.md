@@ -21,8 +21,6 @@
 - [x] Responsive grids
 - [x] Responsive text (especially header H1s)
 - [x] "View All" figure out something at low res (probably just inline block with reduce lineheight or neg margin)
-- [x] .sr-only to complement aria labels on icon buttons and links (don't forget nav-trigger)
-- [ ] Make lightbox arrows & X smaller on mobile
 - [x] 404 & error pages
 - [ ] Overall performance pass, preloads, lazyloads etc.
 - [ ] Redo all thumbnails (except tu-misc & roblox section) through GIMP instead of conversion tool

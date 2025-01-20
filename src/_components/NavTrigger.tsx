@@ -9,7 +9,6 @@ export function NavTrigger() {
       popoverTargetAction="toggle"
       aria-label="Open Navigation">
       <IconBars />
-      <span className="sr-only">Open Navigation</span>
     </button>
   );
 }
