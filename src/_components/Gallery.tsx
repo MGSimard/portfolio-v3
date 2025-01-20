@@ -1,7 +1,15 @@
 import { useState } from "react";
 import { Lightbox } from "./Lightbox";
 
-export function Gallery({ imgSrcs }: { imgSrcs: string[] }) {
+export function Gallery({
+  imgSrcs,
+  columnCount = 6,
+  className = "",
+}: {
+  imgSrcs: string[];
+  columnCount?: number;
+  className?: string;
+}) {
   const [lightboxOpen, setLightboxOpen] = useState<boolean>(false);
   const [startIndex, setStartIndex] = useState<number>(0);
 
@@ -18,7 +26,7 @@ export function Gallery({ imgSrcs }: { imgSrcs: string[] }) {
 
   return (
     <>
-      <div className="grid-6x gallery">
+      <div className={`grid-${columnCount}x gallery ${className}`}>
         {imgSrcs.map((imgSrc, i) => (
           <img key={`${imgSrc}-${i}`} src={thumbify(imgSrc)} alt="IMG" onClick={openLightbox} data-order={i} />
         ))}

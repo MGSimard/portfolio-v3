@@ -169,6 +169,9 @@ video {
 #header-halo-junk-flea {
   background-image: url(/assets/gamedev/halo-infinite/junk-flea/junk-flea_17.webp);
 }
+#header-tu-station-58 {
+  background-image: url(/assets/gamedev/tower-unite/station-58/station-58_23.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
@@ -221,6 +224,16 @@ video {
 }
 .view-all:not(:hover) svg {
   opacity: 0;
+}
+.grid-1x {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+.grid-2x {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
 }
 .grid-6x {
   display: grid;
