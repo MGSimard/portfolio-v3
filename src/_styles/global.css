@@ -175,6 +175,9 @@ video {
 #header-tu-lumbridge-castle {
   background-image: url(/assets/gamedev/tower-unite/lumbridge-castle/lumbridge-castle_3.webp);
 }
+#header-tu-quindecim {
+  background-image: url(/assets/gamedev/tower-unite/quindecim/quindecim_9.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
