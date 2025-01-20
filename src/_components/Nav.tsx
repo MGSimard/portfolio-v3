@@ -69,7 +69,7 @@ export function Nav() {
         <p>Worked professionally in Freelance QA, UI/UX and Usability Testing for web apps & video games.</p>
         <p>
           Level Designer & Environmental Artist primarily through level editors — conventionally referred to as a
-          "Mapper".
+          &quot;Mapper&quot;.
         </p>
       </div>
       <ul id="nav-links" className="noselect">

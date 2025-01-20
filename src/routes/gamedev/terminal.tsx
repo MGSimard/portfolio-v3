@@ -39,20 +39,20 @@ function RouteTerminal() {
           <div>
             <img src="/assets/gamedev/unreal-engine/terminal/terminal_1.webp" alt="IMG" className="float-right" />
             <p>
-              Jumped into experimenting with UE5's built-in modeling tools and some blueprint-based tools through Lyra.
-              Drew up a couple sections and then started mapping them out in low detail. Geo dimensions is partly based
-              on Unreal documentation's recommendations, real world scale, ADA standards and whatever else.
+              Jumped into experimenting with UE5&apos;s built-in modeling tools and some blueprint-based tools through
+              Lyra. Drew up a couple sections and then started mapping them out in low detail. Geo dimensions is partly
+              based on Unreal documentation&apos;s recommendations, real world scale, ADA standards and whatever else.
             </p>
             <p>
               Unsure if this is a project I want to finish completely. I jumped into the Unreal Editor with a very vague
               idea just for the sake of trying to migrate my level editor experience into an industry-standard engine so
-              I'm learning stuff as I go. So far I've utilized the modeling tools, Lyra's procedural BP tools,
-              Spline-based mesh generation for curved roads, material related stuff and basic things like transforms.
-              Not much scripting as of yet for what you would consider a proper level.
+              I&apos;m learning stuff as I go. So far I&apos;ve utilized the modeling tools, Lyra&apos;s procedural BP
+              tools, Spline-based mesh generation for curved roads, material related stuff and basic things like
+              transforms. Not much scripting as of yet for what you would consider a proper level.
             </p>
             <p>
-              Next couple things to focus on would be adjoining the underground subway's maintenance section to the
-              building's basement above. There are three conventional lanes to the map however two of them, being
+              Next couple things to focus on would be adjoining the underground subway&apos;s maintenance section to the
+              building&apos;s basement above. There are three conventional lanes to the map however two of them, being
               outdoors and part of the same-ish area, would require a bit of in-world lore problem solving to think of
               an excuse to separate them with geometry that can obstruct line of sight between the two.
             </p>

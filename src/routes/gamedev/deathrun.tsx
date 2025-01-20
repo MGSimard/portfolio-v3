@@ -32,18 +32,18 @@ function RouteDeathrun() {
                 to modernize and introduce classic game modes into Halo. In this case, deathrun.
               </p>
               <p>
-                Deathrun is a mode coming from old Source game servers (such as Garry's Mod, Counter-Strike: Source
-                etc). The objective is quite simple; one to two "deaths" control the traps alongside a linear map and
-                attempt to prevent runners from reaching the end. Each runner only gets one life, and each trap can only
-                be triggered once. The general idea is that a death can win the round were they to average at least one
-                kill per trap.
+                Deathrun is a mode coming from old Source game servers (such as Garry&apos;s Mod, Counter-Strike: Source
+                etc). The objective is quite simple; one to two &quot;deaths&quot; control the traps alongside a linear
+                map and attempt to prevent runners from reaching the end. Each runner only gets one life, and each trap
+                can only be triggered once. The general idea is that a death can win the round were they to average at
+                least one kill per trap.
               </p>
               <p>
                 This project, like others such as the planned improved sequel to the popular Lake Hot Pursuit, has been
                 placed on-hold for different reasons. Whether or not I find time to continue development is still up in
-                the air, it's extremely time consuming to put out something of this quality as a one man team, having to
-                handle full cycle responsibilities from game design, level design, environmental art, scripting,
-                lighting, sound design, graphic design etc.
+                the air, it&apos;s extremely time consuming to put out something of this quality as a one man team,
+                having to handle full cycle responsibilities from game design, level design, environmental art,
+                scripting, lighting, sound design, graphic design etc.
               </p>
             </div>
           </div>
@@ -70,7 +70,7 @@ function RouteDeathrun() {
             </p>
             <p>
               The environment is based on a mix of forerunner and banished architecture embedded within a mountain, set
-              underground. The second half of the video is very dark, as lighting work hadn't been started for that
+              underground. The second half of the video is very dark, as lighting work hadn&apos;t been started for that
               section yet.
             </p>
           </div>
@@ -105,8 +105,8 @@ function RouteDeathrun() {
           <p>
             As of now, every single trap is fully functional (24) and fully scripted with both visual and function.
             Node-based script brains handle all of it, plus extended game settings, player traits and game logic such as
-            scoring, win conditions etc. The following picture give an idea of the structure for a script, there's a
-            whole lot more happening under the hood with script brains scattered around at nearly every trap.
+            scoring, win conditions etc. The following picture give an idea of the structure for a script, there&apos;s
+            a whole lot more happening under the hood with script brains scattered around at nearly every trap.
           </p>
           <Gallery
             imgSrcs={[

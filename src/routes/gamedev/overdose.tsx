@@ -30,16 +30,17 @@ function RouteOverdose() {
               <p>
                 Overdose is a recreation of{" "}
                 <a href="https://combatarms.fandom.com/wiki/Overdose" target="_blank" className="link">
-                  Combat Arms' original map
+                  Combat Arms&apos; original map
                 </a>
-                , using Halo Infinite's UGC tool, "Forge". The level was entirely built using primitive shapes & Halo
-                Infinite's stock assets over the course of a month (~300 hours). References for the project were
-                numerous different Youtube videos showcasing gameplay of the map (Unlike Junk Flea, where a more precise
-                and complex process was used—explained in more detail within its own section below).
+                , using Halo Infinite&apos;s UGC tool, &quot;Forge&quot;. The level was entirely built using primitive
+                shapes & Halo Infinite&apos;s stock assets over the course of a month (~300 hours). References for the
+                project were numerous different Youtube videos showcasing gameplay of the map (Unlike Junk Flea, where a
+                more precise and complex process was used—explained in more detail within its own section below).
               </p>
               <p>
-                For this specific level, a collection of scripts were "coded" using Forge's built-in node scripting
-                system called Script Brain. Examples of the developed systems can be found further below in the article.
+                For this specific level, a collection of scripts were scripted using Forge&apos;s built-in node
+                scripting system called Script Brain. Examples of the developed systems can be found further below in
+                the article.
               </p>
             </div>
           </div>
@@ -51,20 +52,20 @@ function RouteOverdose() {
             <p>
               Supported by the scripts shown in in the scripting section, the basis of this map + game mode combo is for
               Survivors to outlive the infected. They can accomplish this objective either by surviving until the
-              round's end, or by exterminating all of the infected. The infected are chosen at random at the start of
-              every round, and those Alpha infected eventually "turn" after a short grace period. Unlike Vanilla Halo
-              infection where infection forces a respawn, I've scripted a system which dynamically infects players where
-              they stand to simulate Combat Arms' Quarantine mode. This instills paranoia and lack of trust in each
-              player during pre-round, while also groups to split evenly throughout the map until the infected are
-              turned.
+              round&apos;s end, or by exterminating all of the infected. The infected are chosen at random at the start
+              of every round, and those Alpha infected eventually turn after a short grace period. Unlike Vanilla Halo
+              infection where infection forces a respawn, I&apos;ve scripted a system which dynamically infects players
+              where they stand to simulate Combat Arms&apos; Quarantine mode. This instills paranoia and lack of trust
+              in each player during pre-round, while also groups to split evenly throughout the map until the infected
+              are turned.
             </p>
             <p>
               The map contains defensible areas, several hiding spots and obstacles which the survivors can utilize in
               order to get away from the infected, or even set up traps. Once there is 70 seconds left to the round, a
               10 second alert rings which then leads to saferooms unlocking. If survivors can manage to reach those
               rooms, they can be locked from within to aid in surviving the last minute of the round. If enough infected
-              are still standing, fortifications can be broken through with relative ease - so it's a decent idea to
-              ensure that you have enough explosives saved for them.
+              are still standing, fortifications can be broken through with relative ease - so it&apos;s a decent idea
+              to ensure that you have enough explosives saved for them.
             </p>
           </div>
         </section>

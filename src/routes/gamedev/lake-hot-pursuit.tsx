@@ -33,17 +33,17 @@ function RouteLakeHotPursuit() {
                 rock pieces.
               </p>
               <p>
-                "Lake Hot Pursuit" is based on a mix between the original Need for Speed Hot Pursuit mode and its Halo
-                recreations over the years. The project began as a simple "I'll show you how to do this properly" after
-                experiencing the existing variants in Halo Infinite. One thing led to another, which eventually ended up
-                becoming a feature-complete mode played by thousands since its creation.
+                &quot;Lake Hot Pursuit&quot; is based on a mix between the original Need for Speed Hot Pursuit mode and
+                its Halo recreations over the years. The project began as a simple &quot;I&apos;ll show you how to do
+                this properly&quot; after experiencing the existing variants in Halo Infinite. One thing led to another,
+                which eventually ended up becoming a feature-complete mode played by thousands since its creation.
               </p>
               <p>
                 The map received 300 bookmarks and 500 plays at a 4.7 rating within the first week of beta testing - as
                 of April 1st 2024, five months following its release, it stands at over 15,712 lobby play counts, 4,000
                 bookmarks and 4.5/5* rating over 260 votes. The development process was publicly documented within the
-                Forgehub Discord's WIP section. As of April 2024, the map was "unlocked" for other users to fork, study
-                and iterate upon for their own versions.
+                Forgehub Discord&apos;s WIP section. As of April 2024, the map was &quot;unlocked&quot; for other users
+                to fork, study and iterate upon for their own versions.
               </p>
             </div>
           </div>
@@ -71,8 +71,8 @@ function RouteLakeHotPursuit() {
             </p>
             <p>
               I ensured advantages on both sides depending on which part of the terrain they drive on, whether it be the
-              tight spaces favouring the robbers' mongooses or the cops' superior top speed on straight lines. The map
-              has multiple intersecting sections which reward skilled navigation.
+              tight spaces favouring the robbers&apos; mongooses or the cops&apos; superior top speed on straight lines.
+              The map has multiple intersecting sections which reward skilled navigation.
             </p>
           </div>
         </section>
