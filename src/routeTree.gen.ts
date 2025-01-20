@@ -17,6 +17,7 @@ import { Route as GamedevIndexImport } from './routes/gamedev/index'
 import { Route as GamedevTerminalImport } from './routes/gamedev/terminal'
 import { Route as GamedevOverdoseImport } from './routes/gamedev/overdose'
 import { Route as GamedevLakeHotPursuitImport } from './routes/gamedev/lake-hot-pursuit'
+import { Route as GamedevJunkFleaImport } from './routes/gamedev/junk-flea'
 import { Route as GamedevDeathrunImport } from './routes/gamedev/deathrun'
 
 // Create/Update Routes
@@ -57,6 +58,12 @@ const GamedevLakeHotPursuitRoute = GamedevLakeHotPursuitImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
+const GamedevJunkFleaRoute = GamedevJunkFleaImport.update({
+  id: '/gamedev/junk-flea',
+  path: '/gamedev/junk-flea',
+  getParentRoute: () => rootRoute,
+} as any)
+
 const GamedevDeathrunRoute = GamedevDeathrunImport.update({
   id: '/gamedev/deathrun',
   path: '/gamedev/deathrun',
@@ -86,6 +93,13 @@ declare module '@tanstack/react-router' {
       path: '/gamedev/deathrun'
       fullPath: '/gamedev/deathrun'
       preLoaderRoute: typeof GamedevDeathrunImport
+      parentRoute: typeof rootRoute
+    }
+    '/gamedev/junk-flea': {
+      id: '/gamedev/junk-flea'
+      path: '/gamedev/junk-flea'
+      fullPath: '/gamedev/junk-flea'
+      preLoaderRoute: typeof GamedevJunkFleaImport
       parentRoute: typeof rootRoute
     }
     '/gamedev/lake-hot-pursuit': {
@@ -125,6 +139,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/webdev': typeof WebdevRoute
   '/gamedev/deathrun': typeof GamedevDeathrunRoute
+  '/gamedev/junk-flea': typeof GamedevJunkFleaRoute
   '/gamedev/lake-hot-pursuit': typeof GamedevLakeHotPursuitRoute
   '/gamedev/overdose': typeof GamedevOverdoseRoute
   '/gamedev/terminal': typeof GamedevTerminalRoute
@@ -135,6 +150,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/webdev': typeof WebdevRoute
   '/gamedev/deathrun': typeof GamedevDeathrunRoute
+  '/gamedev/junk-flea': typeof GamedevJunkFleaRoute
   '/gamedev/lake-hot-pursuit': typeof GamedevLakeHotPursuitRoute
   '/gamedev/overdose': typeof GamedevOverdoseRoute
   '/gamedev/terminal': typeof GamedevTerminalRoute
@@ -146,6 +162,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/webdev': typeof WebdevRoute
   '/gamedev/deathrun': typeof GamedevDeathrunRoute
+  '/gamedev/junk-flea': typeof GamedevJunkFleaRoute
   '/gamedev/lake-hot-pursuit': typeof GamedevLakeHotPursuitRoute
   '/gamedev/overdose': typeof GamedevOverdoseRoute
   '/gamedev/terminal': typeof GamedevTerminalRoute
@@ -158,6 +175,7 @@ export interface FileRouteTypes {
     | '/'
     | '/webdev'
     | '/gamedev/deathrun'
+    | '/gamedev/junk-flea'
     | '/gamedev/lake-hot-pursuit'
     | '/gamedev/overdose'
     | '/gamedev/terminal'
@@ -167,6 +185,7 @@ export interface FileRouteTypes {
     | '/'
     | '/webdev'
     | '/gamedev/deathrun'
+    | '/gamedev/junk-flea'
     | '/gamedev/lake-hot-pursuit'
     | '/gamedev/overdose'
     | '/gamedev/terminal'
@@ -176,6 +195,7 @@ export interface FileRouteTypes {
     | '/'
     | '/webdev'
     | '/gamedev/deathrun'
+    | '/gamedev/junk-flea'
     | '/gamedev/lake-hot-pursuit'
     | '/gamedev/overdose'
     | '/gamedev/terminal'
@@ -187,6 +207,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   WebdevRoute: typeof WebdevRoute
   GamedevDeathrunRoute: typeof GamedevDeathrunRoute
+  GamedevJunkFleaRoute: typeof GamedevJunkFleaRoute
   GamedevLakeHotPursuitRoute: typeof GamedevLakeHotPursuitRoute
   GamedevOverdoseRoute: typeof GamedevOverdoseRoute
   GamedevTerminalRoute: typeof GamedevTerminalRoute
@@ -197,6 +218,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   WebdevRoute: WebdevRoute,
   GamedevDeathrunRoute: GamedevDeathrunRoute,
+  GamedevJunkFleaRoute: GamedevJunkFleaRoute,
   GamedevLakeHotPursuitRoute: GamedevLakeHotPursuitRoute,
   GamedevOverdoseRoute: GamedevOverdoseRoute,
   GamedevTerminalRoute: GamedevTerminalRoute,
@@ -216,6 +238,7 @@ export const routeTree = rootRoute
         "/",
         "/webdev",
         "/gamedev/deathrun",
+        "/gamedev/junk-flea",
         "/gamedev/lake-hot-pursuit",
         "/gamedev/overdose",
         "/gamedev/terminal",
@@ -230,6 +253,9 @@ export const routeTree = rootRoute
     },
     "/gamedev/deathrun": {
       "filePath": "gamedev/deathrun.tsx"
+    },
+    "/gamedev/junk-flea": {
+      "filePath": "gamedev/junk-flea.tsx"
     },
     "/gamedev/lake-hot-pursuit": {
       "filePath": "gamedev/lake-hot-pursuit.tsx"

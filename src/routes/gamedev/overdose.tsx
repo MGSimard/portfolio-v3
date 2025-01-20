@@ -12,7 +12,7 @@ function RouteOverdose() {
       <Header id="header-halo-overdose" pageTitle="LEVEL DESIGN //" detached="OVERDOSE" />
       <main>
         <section>
-          <h2>OVERDOSE</h2>
+          <h2>Overdose</h2>
           <div className="grid-1-2x">
             <img src="/assets/gamedev/halo-infinite/overdose/overdose_1.webp" alt="IMG" />
             <div className="p-page-meta">
@@ -28,11 +28,14 @@ function RouteOverdose() {
                 </li>
               </ul>
               <p>
-                Overdose is a recreation of Combat Arms' original map, using Halo Infinite's UGC tool, "Forge". The
-                level was entirely built using primitive shapes & Halo Infinite's stock assets over the course of a
-                month (~300 hours). References for the project were numerous different Youtube videos showcasing
-                gameplay of the map (Unlike Junk Flea, where a more precise and complex process was used—explained in
-                more detail within its own section below).
+                Overdose is a recreation of{" "}
+                <a href="https://combatarms.fandom.com/wiki/Overdose" target="_blank" className="link">
+                  Combat Arms' original map
+                </a>
+                , using Halo Infinite's UGC tool, "Forge". The level was entirely built using primitive shapes & Halo
+                Infinite's stock assets over the course of a month (~300 hours). References for the project were
+                numerous different Youtube videos showcasing gameplay of the map (Unlike Junk Flea, where a more precise
+                and complex process was used—explained in more detail within its own section below).
               </p>
               <p>
                 For this specific level, a collection of scripts were "coded" using Forge's built-in node scripting

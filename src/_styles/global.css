@@ -166,6 +166,9 @@ video {
 #header-halo-overdose {
   background-image: url(/assets/gamedev/halo-infinite/overdose/overdose_6.webp);
 }
+#header-halo-junk-flea {
+  background-image: url(/assets/gamedev/halo-infinite/junk-flea/junk-flea_17.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
