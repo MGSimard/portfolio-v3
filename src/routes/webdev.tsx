@@ -18,7 +18,7 @@ function RouteWebdev() {
         {Object.entries(webdevProjects).map(([section, projects]) => (
           <section key={section}>
             <h2 className="section-title">
-              {section}
+              <span className="section-title-core">{section}</span>
               {projects.more && (
                 <a href={projects.more} target="_blank" className="view-all">
                   View All

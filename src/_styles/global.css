@@ -203,7 +203,7 @@ video {
   background-image: url(/assets/gamedev/roblox-studio/thy-kingdom-come/thy-kingdom-come_3.webp);
 }
 #page-title {
-  font-size: 10rem;
+  font-size: clamp(3rem, 6vw, 10rem);
   color: var(--clrText);
   mix-blend-mode: color-burn;
   transform: translateZ(0); /* Force GPU to avoid mix-blend-mode perf impact */
@@ -246,8 +246,14 @@ video {
 .detail {
   color: var(--clrDetail);
 }
+.section-title {
+  line-height: 1em;
+}
+.section-title-core:not(:last-child) {
+  margin-right: 0.5em;
+}
 .view-all {
-  margin-left: 0.5em;
+  display: inline-block;
   font-size: 0.5em;
   font-weight: 200;
   letter-spacing: -0.08em;
@@ -604,7 +610,7 @@ nav {
 }
 #hero h1 {
   margin-bottom: 2rem;
-  font-size: 20rem;
+  font-size: clamp(5rem, 10vw, 20rem);
   color: var(--clrText);
   border-bottom: 1rem solid var(--clrPrimary);
   mix-blend-mode: color-burn;
@@ -629,6 +635,7 @@ nav {
   mix-blend-mode: normal;
 }
 #hero-socials svg {
+  width: 2em;
   height: 2em;
 }
 /* PROJECT PAGE */
@@ -676,11 +683,14 @@ section p:not(:last-child) {
 }
 
 @media only screen and (max-width: 968px) {
+  header {
+    padding: 2rem var(--sitePadding);
+  }
   main {
     padding: 4rem var(--sitePadding);
   }
-  header {
-    padding: 2rem var(--sitePadding);
+  #hero h1 {
+    margin-bottom: 1rem;
   }
   /* Turn nav into mobile nav using Popover API */
   #nav-trigger {
@@ -706,6 +716,9 @@ section p:not(:last-child) {
   }
 }
 @media only screen and (max-width: 592px) {
+  :root {
+    --sitePadding: 2rem;
+  }
   .float-left,
   .float-right {
     margin: 0;

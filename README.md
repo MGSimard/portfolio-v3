@@ -19,7 +19,8 @@
 - [x] Reset scroll on page navigation - important
 - [x] Responsive Nav (Side drawer)
 - [x] Responsive grids
-- [ ] Responsive text (especially header H1s)
+- [x] Responsive text (especially header H1s)
+- [x] "View All" figure out something at low res (probably just inline block with reduce lineheight or neg margin)
 - [ ] .sr-only to complement aria labels on icon buttons and links (don't forget nav-trigger)
 - [ ] Make lightbox arrows & X smaller on mobile
 - [ ] 404 & error pages
