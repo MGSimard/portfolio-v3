@@ -181,6 +181,9 @@ video {
 #header-tu-exploded-cinema {
   background-image: url(/assets/gamedev/tower-unite/exploded-cinema/exploded-cinema_10.webp);
 }
+#header-tu-misc {
+  background-image: url(/assets/gamedev/tower-unite/misc/art-gallery_2.webp);
+}
 #page-title {
   font-size: 10rem;
   color: var(--clrText);
@@ -263,10 +266,12 @@ video {
   float: left;
   width: 30%;
   margin-right: 2rem;
+  margin-bottom: 2rem;
 }
 .float-right {
   float: right;
   width: 30%;
+  margin-bottom: 2rem;
   margin-left: 2rem;
 }
 .project-preview {
