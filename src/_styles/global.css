@@ -484,8 +484,32 @@ nav {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-#contact button {
+#contact .link-as-btn {
   flex-shrink: 0;
+}
+.link-as-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  color: var(--clrText);
+  font-family: inherit;
+  text-align: center;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: hsl(240, 4%, 20%);
+  transition: background-color ease 0.2s;
+}
+.link-as-btn:hover {
+  background-color: hsl(240, 2%, 32%);
+}
+.link-as-btn svg {
+  height: 1em;
 }
 #bio > *:not(:last-child) {
   margin-bottom: 1em;

@@ -69,10 +69,10 @@ export function Nav() {
             </Link>
           </li>
         </ul>
-        <button type="button" className="btn-secondary">
+        <a href="mailto:mgsimard.dev@gmail.com" className="link-as-btn">
           <IconMail />
           Send Email
-        </button>
+        </a>
       </div>
       <div id="bio">
         <div id="badges">

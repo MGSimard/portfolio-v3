@@ -22,14 +22,14 @@
 - [x] Responsive text (especially header H1s)
 - [x] "View All" figure out something at low res (probably just inline block with reduce lineheight or neg margin)
 - [x] 404 & error pages
-- [ ] Overall performance pass, preloads, lazyloads etc.
+- [ ] Metadata & Icons
 - [ ] Redo all thumbnails (except tu-misc & roblox section) through GIMP instead of conversion tool
 - [ ] Preload the header divider picture?
-- [ ] Metadata & Icons
+- [ ] Fallback fonts to help while loading fonts
+- [ ] Overall performance pass, preloads, lazyloads etc.
 - [ ] Buy Domain Name
 - [ ] Set up nameserver pointers
 - [ ] ...
-- [ ] Fallback fonts to help while loading fonts
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
 - [ ] Make sure mobile nav visibility hidden when not popover open is the correct play
 
