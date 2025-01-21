@@ -30,8 +30,6 @@
 - [ ] Buy Domain Name
 - [ ] Set up nameserver pointers
 - [ ] ...
-- [ ] Consider badges instead of text for text stack bio in nav sidebar
-- [ ] @container has decent adoption by now, see if I can find an excuse to use it?
 - [ ] Fallback fonts to help while loading fonts
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
 - [ ] Make sure mobile nav visibility hidden when not popover open is the correct play

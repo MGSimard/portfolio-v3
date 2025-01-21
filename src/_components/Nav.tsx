@@ -58,14 +58,14 @@ export function Nav() {
       </div>
       <div id="contact">
         <ul>
-          <li id="location" className="detail">
+          <li id="location" className="detail contact-entry">
             <IconPin />
-            Quebec, Canada
+            <span>Quebec, Canada</span>
           </li>
           <li>
-            <Link to="/" className="link">
+            <Link to="/" className="link contact-entry">
               <IconGlobe />
-              mgsimard.dev
+              <span>mgsimard.devoioooooooowe</span>
             </Link>
           </li>
         </ul>
