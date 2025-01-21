@@ -65,7 +65,7 @@ export function Nav() {
           <li>
             <Link to="/" className="link contact-entry">
               <IconGlobe />
-              <span>mgsimard.devoioooooooowe</span>
+              <span>mgsimard.dev</span>
             </Link>
           </li>
         </ul>
