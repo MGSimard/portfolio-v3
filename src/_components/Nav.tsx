@@ -103,7 +103,7 @@ export function Nav() {
           </li>
         ))}
         <li>
-          <a href="#" download="Marc-Olivier Gendron-Simard Resume.pdf">
+          <a href="/Marc-Olivier%20Gendron-Simard%20Resume.pdf" download="Marc-Olivier Gendron-Simard Resume.pdf">
             Download Resume
           </a>
         </li>
