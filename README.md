@@ -22,7 +22,7 @@
 - [x] Responsive text (especially header H1s)
 - [x] "View All" figure out something at low res (probably just inline block with reduce lineheight or neg margin)
 - [x] 404 & error pages
-- [ ] Metadata & Icons
+- [x] Metadata & Icons
 - [ ] Redo all thumbnails (except tu-misc & roblox section) through GIMP instead of conversion tool
 - [ ] Preload the header divider picture?
 - [ ] Fallback fonts to help while loading fonts
