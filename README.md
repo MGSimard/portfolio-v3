@@ -31,5 +31,6 @@
 - [ ] ...
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
 - [ ] Make sure mobile nav visibility hidden when not popover open is the correct play
+- [ ] Fix canonical URL head
 
 </details>
