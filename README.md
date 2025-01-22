@@ -36,7 +36,7 @@
 - [x] Exploded Cinema thumbs
 - [x] Lumbridge Castle thumbs
 - [x] Quindecim thumbs
-- [ ] Station 58 thumbs
+- [x] Station 58 thumbs
 - [ ] Terminal thumbs
 - [ ] ...
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
