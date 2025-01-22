@@ -32,7 +32,7 @@
 - [x] Deathrun thumbs
 - [x] Junk Flea thumbs
 - [x] Hot Pursuit thumbs
-- [ ] Overdose thumbs
+- [x] Overdose thumbs
 - [ ] Exploded Cinema thumbs
 - [ ] Lumbridge Castle thumbs
 - [ ] Quindecim thumbs
