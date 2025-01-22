@@ -29,8 +29,8 @@
 - [x] Buy Domain Name
 - [ ] Overall performance pass, preloads, lazyloads etc.
 - [ ] Do thumbs in gimp instead of tool it'll be better optimized (tu-misc & roblox done)
-- [ ] Deathrun thumbs
-- [ ] Junk Flea thumbs
+- [x] Deathrun thumbs
+- [x] Junk Flea thumbs
 - [ ] Hot Pursuit thumbs
 - [ ] Overdose thumbs
 - [ ] Exploded Cinema thumbs
