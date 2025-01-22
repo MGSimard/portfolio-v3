@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Link } from "@tanstack/react-router";
 import {
   IconBootstrap,
@@ -26,6 +27,13 @@ import {
 import { Badge } from "./Badge";
 
 export function Nav() {
+  type PopoverElement = HTMLElement & {
+    showPopover?: () => void;
+    hidePopover?: () => void;
+  };
+
+  const navRef = useRef<PopoverElement | null>(null);
+
   const links = [
     { text: "Home", linkTo: "/", icon: <IconHome /> },
     { text: "Web Development", linkTo: "/webdev", icon: <IconCode /> },
@@ -40,8 +48,12 @@ export function Nav() {
     { linkTo: "https://www.frontendmentor.io/profile/MGSimard", icon: <IconFEM />, label: "Frontend Mentor" },
   ];
 
+  const hideNav = () => {
+    navRef.current?.hidePopover();
+  };
+
   return (
-    <nav id="nav" popover="auto">
+    <nav ref={navRef} id="nav" popover="auto">
       <button id="nav-close" type="button" popoverTarget="nav" popoverTargetAction="hide" aria-label="Close Navigation">
         <IconClose />
       </button>
@@ -96,7 +108,7 @@ export function Nav() {
       <ul id="nav-links" className="noselect">
         {links.map((link) => (
           <li key={link.text}>
-            <Link to={link.linkTo}>
+            <Link to={link.linkTo} onClick={hideNav}>
               {link.icon}
               {link.text}
             </Link>

@@ -380,7 +380,7 @@ nav {
   scrollbar-width: thin;
   scrollbar-color: var(--clrScroll) var(--clrBgLight);
   z-index: 9999;
-  transition: transform 0.2s ease;
+  transition: all 0.2s ease;
 }
 #nav-trigger {
   top: 2rem;
