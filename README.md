@@ -26,10 +26,9 @@
 - [x] Clicking a page link should close the navbar (popovertargetaction doesn't work on a tags, had to use programmatic)
 - [ ] Redo all thumbnails (except tu-misc & roblox section) through GIMP instead of conversion tool
 - [ ] Preload the header divider picture?
-- [ ] Fallback fonts to help while loading fonts
+- [x] Fallback fonts to help while loading fonts
 - [ ] Overall performance pass, preloads, lazyloads etc.
-- [ ] Buy Domain Name
-- [ ] Set up nameserver pointers
+- [x] Buy Domain Name
 - [ ] ...
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
 - [ ] Make sure mobile nav visibility hidden when not popover open is the correct play

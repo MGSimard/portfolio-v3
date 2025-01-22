@@ -5,7 +5,6 @@
 }
 :root {
   --clrPrimary: hsl(0, 95%, 62%); /* Imperial Red */
-  /* --clrSecondary: ; TODO */
   --clrBg: hsl(240, 11%, 7%); /* Night */
   --clrBgLight: hsl(240, 6%, 13%); /* Raisin Black */
   --clrHeading: hsl(0, 0%, 100%); /* White */
@@ -16,13 +15,19 @@
   --siteWidth: 2560px;
   --sitePadding: 4rem;
   --sidebarWidth: 38rem;
+
+  --Barlow-and-fallbacks: "Barlow Condensed", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --GeistSans-and-fallbacks: "Geist Sans", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --GeistMono-and-fallbacks: "Geist Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 html {
   font-size: 62.5%;
   background: var(--clrBg);
 }
 body {
-  font-family: "Geist Sans", "Arial", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: var(--GeistSans-and-fallbacks);
   font-size: 1.6rem;
   color: var(--clrText);
   background: var(--clrBg);
@@ -93,7 +98,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Geist Mono";
+  font-family: var(--GeistMono-and-fallbacks);
   color: var(--clrHeading);
   letter-spacing: -0.03em;
 }
@@ -450,7 +455,7 @@ nav {
   display: block;
 }
 #author-name {
-  font-family: "Barlow Condensed";
+  font-family: var(--Barlow-and-fallbacks);
   font-size: 4rem;
   font-weight: 500;
   color: var(--clrHeading);
