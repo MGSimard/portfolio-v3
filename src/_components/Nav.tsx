@@ -58,7 +58,7 @@ export function Nav() {
         <IconClose />
       </button>
       <div id="author">
-        <Link to="/" id="author-logo">
+        <Link to="/" id="author-logo" aria-label="Home">
           <IconMGS />
         </Link>
         <div id="author-info">
