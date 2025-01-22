@@ -1,35 +1,42 @@
-<h1>PORTFOLIO V3 FILES</h1> 
-<details><summary><h2>TASK LIST</h2></summary>
+<br/>
+<div align="center">
 
-- [x] Scaffold React/Vite
-- [x] Upgrade to React 19 & other
-- [x] Enable React Compiler
-- [x] Set up TanStack Router
-- [x] Push to GitHub
-- [x] Set up Cloudflare Pages
-- [x] Link GitHub repo to Cloudflare Pages w/ autodeploy
-- [x] Layout, site styles & design
-- [x] Find font(s)
-- [x] Webdev page
-- [x] Custom nav scrollbar
-- [x] Gamedev page
-- [x] Implement all gamedev articles
-- [x] Lightbox system (single & galleries)
-- [x] Make gallery component take in an amount of columns (1, 6) to support single image lightboxing.
-- [x] Reset scroll on page navigation - important
-- [x] Responsive Nav (Side drawer)
-- [x] Responsive grids
-- [x] Responsive text (especially header H1s)
-- [x] "View All" figure out something at low res (probably just inline block with reduce lineheight or neg margin)
-- [x] 404 & error pages
-- [x] Metadata & Icons
-- [x] Clicking a page link should close the navbar (popovertargetaction doesn't work on a tags, had to use programmatic)
-- [x] Preload the header divider picture?
-- [x] Fallback fonts to help while loading fonts
-- [x] Buy Domain Name
-- [ ] Overall performance pass, preloads, lazyloads etc.
-- [ ] ...
-- [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
-- [ ] Make sure mobile nav visibility hidden when not popover open is the correct play
+<h3 align="center">MGSimard's Portfolio</h3>
+<p align="center">
+React + Vite App
+<br/>
+<br/>
+<a href="https://mgsimard.dev/">View Live Project</a>
+</p>
+</div>
 
-</details>
+## About The Project
+
+![Screenshot](https://i.imgur.com/LQ2s3qQ.jpeg)
+
+Rebuilt my old vanilla portfolio from the ground-up in React. Bunch of performance, design and accessibility improvements across the board. Usage of mix-blend-mode for H1 titles have some negative impact due to a choice of style over necessity, but I alleviated as much of it as possible by forcing GPU rendering with a translateZ(0) on said elements. If for some reason someone wants to use this portfolio as their own, project gallery data is in each of the json files in src>\\\_data. As for gamedev pages, they're static pages rather than dynamically generated, so you won't find that in the data files.
+
+### Features
+
+- Home
+- Web Development
+- Game Development (Level Design & Environmental Art)
+- Portfolio Download
+
+### Built With
+
+- [React 19](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [TypeScript 5.7.3](https://www.typescriptlang.org/)
+- [TanStack Router](https://tanstack.com/router/latest/)
+
+## Acknowledgments
+
+- Design cues from ArtStation
+
+## Contact
+
+MGSimard - mgsimard.dev@gmail.com
+[@MGSimard on X](https://x.com/MGSimard)
+
+For more info, view my portfolio at [mgsimard.dev](https://mgsimard.dev). Resume attached.
