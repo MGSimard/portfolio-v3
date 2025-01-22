@@ -31,7 +31,7 @@
 - [ ] Do thumbs in gimp instead of tool it'll be better optimized (tu-misc & roblox done)
 - [x] Deathrun thumbs
 - [x] Junk Flea thumbs
-- [ ] Hot Pursuit thumbs
+- [x] Hot Pursuit thumbs
 - [ ] Overdose thumbs
 - [ ] Exploded Cinema thumbs
 - [ ] Lumbridge Castle thumbs
