@@ -16,12 +16,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-Regular.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-Italic.ttf) format("truetype");
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED THIN */
@@ -30,12 +32,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-Thin.ttf) format("truetype");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-ThinItalic.ttf) format("truetype");
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED EXTRALIGHT */
@@ -44,12 +48,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-ExtraLight.ttf) format("truetype");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-ExtraLightItalic.ttf) format("truetype");
   font-weight: 200;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED LIGHT */
@@ -58,12 +64,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-Light.ttf) format("truetype");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-LightItalic.ttf) format("truetype");
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED MEDIUM */
@@ -72,12 +80,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-Medium.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-MediumItalic.ttf) format("truetype");
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED SEMIBOLD */
@@ -86,12 +96,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-SemiBold.ttf) format("truetype");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-SemiBoldItalic.ttf) format("truetype");
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED BOLD */
@@ -100,12 +112,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-Bold.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-BoldItalic.ttf) format("truetype");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED EXTRABOLD */
@@ -114,12 +128,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-ExtraBold.ttf) format("truetype");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-ExtraBoldItalic.ttf) format("truetype");
   font-weight: 800;
   font-style: italic;
+  font-display: swap;
 }
 
 /* BARLOW CONDENSED BLACK */
@@ -128,12 +144,14 @@ Thin: 100
   src: url(./barlow-condensed/BarlowCondensed-Black.ttf) format("truetype");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Barlow Condensed";
   src: url(./barlow-condensed/BarlowCondensed-BlackItalic.ttf) format("truetype");
   font-weight: 900;
   font-style: italic;
+  font-display: swap;
 }
 
 /* GEIST MONO
@@ -154,6 +172,7 @@ Thin: 100
   src: url(./geist-sans/Geist-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS THIN */
@@ -162,6 +181,7 @@ Thin: 100
   src: url(./geist-sans/Geist-Thin.woff2) format("woff2");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS EXTRALIGHT */
@@ -170,6 +190,7 @@ Thin: 100
   src: url(./geist-sans/Geist-ExtraLight.woff2) format("woff2");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS LIGHT */
@@ -178,6 +199,7 @@ Thin: 100
   src: url(./geist-sans/Geist-Light.woff2) format("woff2");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS MEDIUM */
@@ -186,6 +208,7 @@ Thin: 100
   src: url(./geist-sans/Geist-Medium.woff2) format("woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS SEMIBOLD */
@@ -194,6 +217,7 @@ Thin: 100
   src: url(./geist-sans/Geist-SemiBold.woff2) format("woff2");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS BOLD */
@@ -202,6 +226,7 @@ Thin: 100
   src: url(./geist-sans/Geist-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS EXTRABOLD */
@@ -210,6 +235,7 @@ Thin: 100
   src: url(./geist-sans/Geist-ExtraBold.woff2) format("woff2");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST SANS BLACK */
@@ -218,6 +244,7 @@ Thin: 100
   src: url(./geist-sans/Geist-Black.woff2) format("woff2");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO
@@ -238,6 +265,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-Regular.woff2) format("woff2");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO THIN */
@@ -246,6 +274,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-Thin.woff2) format("woff2");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO ULTRALIGHT */
@@ -254,6 +283,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-UltraLight.woff2) format("woff2");
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO LIGHT */
@@ -262,6 +292,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-Light.woff2) format("woff2");
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO MEDIUM */
@@ -270,6 +301,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-Medium.woff2) format("woff2");
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO SEMIBOLD */
@@ -278,6 +310,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-SemiBold.woff2) format("woff2");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO BOLD */
@@ -286,6 +319,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-Bold.woff2) format("woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO BLACK */
@@ -294,6 +328,7 @@ Thin: 100
   src: url(./geist-mono/GeistMono-Black.woff2) format("woff2");
   font-weight: 800;
   font-style: normal;
+  font-display: swap;
 }
 
 /* GEIST MONO ULTRABLACK */
@@ -302,4 +337,5 @@ Thin: 100
   src: url(./geist-mono/GeistMono-UltraBlack.woff2) format("woff2");
   font-weight: 900;
   font-style: normal;
+  font-display: swap;
 }
