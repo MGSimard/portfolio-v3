@@ -28,19 +28,8 @@
 - [x] Fallback fonts to help while loading fonts
 - [x] Buy Domain Name
 - [ ] Overall performance pass, preloads, lazyloads etc.
-- [ ] Do thumbs in gimp instead of tool it'll be better optimized (tu-misc & roblox done)
-- [x] Deathrun thumbs
-- [x] Junk Flea thumbs
-- [x] Hot Pursuit thumbs
-- [x] Overdose thumbs
-- [x] Exploded Cinema thumbs
-- [x] Lumbridge Castle thumbs
-- [x] Quindecim thumbs
-- [x] Station 58 thumbs
-- [ ] Terminal thumbs
 - [ ] ...
 - [ ] Consider moving navbar stuff to right side on mobile since most people are right handed
 - [ ] Make sure mobile nav visibility hidden when not popover open is the correct play
-- [ ] Fix canonical URL head
 
 </details>
