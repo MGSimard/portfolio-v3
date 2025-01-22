@@ -33,9 +33,9 @@
 - [x] Junk Flea thumbs
 - [x] Hot Pursuit thumbs
 - [x] Overdose thumbs
-- [ ] Exploded Cinema thumbs
-- [ ] Lumbridge Castle thumbs
-- [ ] Quindecim thumbs
+- [x] Exploded Cinema thumbs
+- [x] Lumbridge Castle thumbs
+- [x] Quindecim thumbs
 - [ ] Station 58 thumbs
 - [ ] Terminal thumbs
 - [ ] ...
