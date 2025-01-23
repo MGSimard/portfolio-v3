@@ -441,6 +441,7 @@ nav {
   text-align: center;
 }
 #author-logo {
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -780,12 +781,21 @@ section p:not(:last-child) {
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(0.5rem);
   }
+  #author {
+    flex-direction: row;
+    text-align: start;
+  }
+  #author-logo {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 @media only screen and (max-width: 768px) {
   .grid-1-2x {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
+
 @media only screen and (max-width: 592px) {
   :root {
     --sitePadding: 2rem;
@@ -808,4 +818,7 @@ section p:not(:last-child) {
   #contact {
     flex-direction: column;
   }
+  /* #author-logo {
+    display: none;
+  } */
 }
