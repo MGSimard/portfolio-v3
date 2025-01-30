@@ -632,6 +632,7 @@ nav {
   pointer-events: auto;
   transition: all 0.2s ease;
   border-radius: 0;
+  outline: none;
 }
 .lightbox-arrows button:not(:disabled):hover,
 .lightbox-arrows button:not(:disabled):focus-visible {
