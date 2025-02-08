@@ -19,6 +19,13 @@
       "more": "https://github.com/MGSimard/",
       "projects": [
         {
+          "title": "NextGen",
+          "tags": "Personal Next.js Stack & Template",
+          "thumbnail": "./assets/wd-thumbnails/thumb_nextgen.webp",
+          "link": "https://nextgen-template.vercel.app/",
+          "githubRepo": "https://github.com/MGSimard/nextgen-template/"
+        },
+        {
           "title": "VertexBlog",
           "tags": "Next.js, TypeScript, Drizzle (PostgreSQL), Lucia, Fullstack",
           "thumbnail": "./assets/wd-thumbnails/thumb_vertexblog.webp",
