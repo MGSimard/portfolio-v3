@@ -1,7 +1,2 @@
-# robots.txt for https://www.mgsimard.dev/
-
-# Allow all web crawlers to access all content
 User-agent: *
 Allow: /
-
-

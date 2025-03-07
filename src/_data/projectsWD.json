@@ -19,6 +19,13 @@
       "more": "https://github.com/MGSimard/",
       "projects": [
         {
+          "title": "Emerald",
+          "tags": "React, TypeScript, Dexie.js",
+          "thumbnail": "./assets/wd-thumbnails/thumb_emerald.webp",
+          "link": "https://emerald-app.pages.dev/",
+          "githubRepo": "https://github.com/MGSimard/emerald/"
+        },
+        {
           "title": "NextGen",
           "tags": "Personal Next.js Stack & Template",
           "thumbnail": "./assets/wd-thumbnails/thumb_nextgen.webp",

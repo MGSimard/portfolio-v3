@@ -3,13 +3,13 @@
   "short_name": "MGSimard",
   "icons": [
     {
-      "src": "/assets/favicons/web-app-manifest-192x192.png",
+      "src": "/metadata/logo192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/assets/favicons/web-app-manifest-512x512.png",
+      "src": "/metadata/logo512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
