@@ -44,3 +44,9 @@ GitHub: [@MGSimard](https://github.com/MGSimard)
 Mail: [mgsimard.dev@gmail.com](mailto:mgsimard.dev@gmail.com)
 
 For more info, view my portfolio at [mgsimard.dev](https://mgsimard.dev).
+
+---
+
+## Task List
+
+- [ ] New portfolio design when I feel like it

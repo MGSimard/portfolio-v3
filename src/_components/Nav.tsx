@@ -98,7 +98,10 @@ export function Nav() {
           <Badge icon={<IconWordpress />} text="Wordpress" />
           <Badge icon={<IconBootstrap />} text="Bootstrap" />
         </div>
-        <p>Tech Stack: HTML5/CSS/JS, TypeScript, React 19, Next.js 15, Bootstrap, Wordpress, Divi, PostgreSQL.</p>
+        <p>
+          Tech Stack: HTML5/CSS/JS, TypeScript, React 19, Next.js 15, TanStack Start, Bootstrap, Wordpress, Divi,
+          PostgreSQL.
+        </p>
         <p>Worked professionally in Freelance QA, UI/UX and Usability Testing for web apps & video games.</p>
         <p>
           Level Designer & Environmental Artist primarily through level editors — conventionally referred to as a

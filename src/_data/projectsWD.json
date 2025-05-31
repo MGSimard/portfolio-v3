@@ -19,6 +19,27 @@
       "more": "https://github.com/MGSimard/",
       "projects": [
         {
+          "title": "MGS RECS",
+          "tags": "TanStack Start, TypeScript, Tailwind CSS",
+          "thumbnail": "./assets/wd-thumbnails/thumb_mgs-recs.webp",
+          "link": "https://mgs-recs.pages.dev/",
+          "githubRepo": "https://github.com/MGSimard/mgs-recs/"
+        },
+        {
+          "title": "MDPVSS",
+          "tags": "React, TypeScript, Shiki, Markdown, Zustand",
+          "thumbnail": "./assets/wd-thumbnails/thumb_mdpvss.webp",
+          "link": "https://mdpvss.pages.dev/",
+          "githubRepo": "https://github.com/MGSimard/mdpvss/"
+        },
+        {
+          "title": "Sonata",
+          "tags": "React, TypeScript, Tone.js, WIP",
+          "thumbnail": "./assets/wd-thumbnails/thumb_sonata.webp",
+          "link": "https://sonata.pages.dev/",
+          "githubRepo": "https://github.com/MGSimard/sonata/"
+        },
+        {
           "title": "Emerald",
           "tags": "React, TypeScript, Dexie.js",
           "thumbnail": "./assets/wd-thumbnails/thumb_emerald.webp",
