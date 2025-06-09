@@ -26,6 +26,13 @@
           "githubRepo": "https://github.com/MGSimard/mgs-recs/"
         },
         {
+          "title": "SimDraft",
+          "tags": "React, TypeScript, Zustand",
+          "thumbnail": "./assets/wd-thumbnails/thumb_simdraft.webp",
+          "link": "https://simdraft.pages.dev/",
+          "githubRepo": "https://github.com/MGSimard/simdraft/"
+        },
+        {
           "title": "MDPVSS",
           "tags": "React, TypeScript, Shiki, Markdown, Zustand",
           "thumbnail": "./assets/wd-thumbnails/thumb_mdpvss.webp",
