@@ -89,7 +89,14 @@
           "githubRepo": "https://github.com/MGSimard/leaguemh-next/"
         },
         {
-          "title": "Myth War Archive",
+          "title": "Myth War Archive v2",
+          "tags": "React, TypeScript",
+          "thumbnail": "./assets/wd-thumbnails/thumb_mwarchive_2.webp",
+          "link": "https://mwarchive.pages.app/",
+          "githubRepo": "https://github.com/MGSimard/myth-war-archive-v2/"
+        },
+        {
+          "title": "Myth War Archive (Legacy)",
           "tags": "Next.js, TypeScript",
           "thumbnail": "./assets/wd-thumbnails/thumb_mwarchive.webp",
           "link": "https://mwarchive.vercel.app/",
