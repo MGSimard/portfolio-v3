@@ -22,7 +22,7 @@
           "title": "MGS RECS",
           "tags": "TanStack Start, TypeScript, Tailwind CSS",
           "thumbnail": "./assets/wd-thumbnails/thumb_mgs-recs.webp",
-          "link": "https://mgs-recs.pages.dev/",
+          "link": "https://mgs-recs.netlify.app/",
           "githubRepo": "https://github.com/MGSimard/mgs-recs/"
         },
         {
