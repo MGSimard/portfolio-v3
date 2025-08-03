@@ -43,10 +43,11 @@ function RouteLakeHotPursuit() {
               </p>
               <p>
                 The map received 300 bookmarks and 500 plays at a 4.7 rating within the first week of beta testing - as
-                of April 1st 2024, five months following its release, it stands at over 15,712 lobby play counts, 4,000
-                bookmarks and 4.5/5* rating over 260 votes. The development process was publicly documented within the
-                Forgehub Discord&apos;s WIP section. As of April 2024, the map was &quot;unlocked&quot; for other users
-                to fork, study and iterate upon for their own versions.
+                of 2025, it stands at over 52,000 play counts, 4,700 bookmarks and 4.5/5* rating over 339 votes. The
+                development process was publicly documented within the Forgehub Discord&apos;s WIP section. From April
+                2024 onwards, the map was &quot;unlocked&quot; for other users to fork, study and iterate upon for their
+                own versions. Across all its variations it garnered over 100,000 plays, solidifying itself as one of the
+                most popular custom map & mode in Halo Infinite&apos;s lifetime.
               </p>
             </div>
           </div>
